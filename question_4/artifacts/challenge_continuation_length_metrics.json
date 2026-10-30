@@ -1,0 +1,76 @@
+{
+  "source_file": "results/plot_twist_challenge.json",
+  "total_records": 84,
+  "records_per_model": 42,
+  "sample_design": "7 challenge prompts x 3 decoding strategies x 2 samples per setting for each model; greedy duplicates are retained in the record count because greedy decoding is deterministic.",
+  "word_count_method": "Remove the exact prompt prefix from each output, then count matches of r\"\\b\\w+(?:'\\w+)?\\b\" in the continuation.",
+  "distinct_from_pooled_metrics": "These are the saved Plot-Twist Challenge records, not the 35 general-prompt outputs per model used for artifacts/metrics.json.",
+  "by_model": {
+    "rnn": {
+      "records": 42,
+      "mean_continuation_words": 62.9,
+      "median_continuation_words": 67.0,
+      "min_continuation_words": 10,
+      "max_continuation_words": 73,
+      "continuations_under_20_words": 2
+    },
+    "lstm": {
+      "records": 42,
+      "mean_continuation_words": 68.4,
+      "median_continuation_words": 70.5,
+      "min_continuation_words": 6,
+      "max_continuation_words": 74,
+      "continuations_under_20_words": 1
+    }
+  },
+  "by_model_and_strategy": {
+    "rnn_greedy": {
+      "records": 14,
+      "mean_continuation_words": 61.86,
+      "median_continuation_words": 71.0,
+      "min_continuation_words": 10,
+      "max_continuation_words": 73,
+      "continuations_under_20_words": 2
+    },
+    "rnn_temperature": {
+      "records": 14,
+      "mean_continuation_words": 64.5,
+      "median_continuation_words": 66.5,
+      "min_continuation_words": 47,
+      "max_continuation_words": 71,
+      "continuations_under_20_words": 0
+    },
+    "rnn_top_k": {
+      "records": 14,
+      "mean_continuation_words": 62.36,
+      "median_continuation_words": 64.5,
+      "min_continuation_words": 45,
+      "max_continuation_words": 72,
+      "continuations_under_20_words": 0
+    },
+    "lstm_greedy": {
+      "records": 14,
+      "mean_continuation_words": 71.14,
+      "median_continuation_words": 71.0,
+      "min_continuation_words": 69,
+      "max_continuation_words": 74,
+      "continuations_under_20_words": 0
+    },
+    "lstm_temperature": {
+      "records": 14,
+      "mean_continuation_words": 63.43,
+      "median_continuation_words": 67.5,
+      "min_continuation_words": 6,
+      "max_continuation_words": 74,
+      "continuations_under_20_words": 1
+    },
+    "lstm_top_k": {
+      "records": 14,
+      "mean_continuation_words": 70.64,
+      "median_continuation_words": 71.0,
+      "min_continuation_words": 66,
+      "max_continuation_words": 74,
+      "continuations_under_20_words": 0
+    }
+  }
+}

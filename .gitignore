@@ -39,3 +39,8 @@
 !/question_4/checkpoints/
 !/question_4/checkpoints/rnn.pt
 !/question_4/checkpoints/lstm.pt
+
+# Small supplied Q4 held-out evaluation inputs; full training data remains excluded
+!/question_4/data/processed/
+!/question_4/data/processed/val.pt
+!/question_4/data/processed/test.pt

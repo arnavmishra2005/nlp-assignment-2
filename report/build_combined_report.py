@@ -88,7 +88,9 @@ def q1_section(font):
         p(story,esc(notes[i]),small=True)
     return document(story,'Q1')
 def has_ratings():
-    path=ROOT/'question_4/results/human_eval_3_rater_template.csv';data=rows(path)
+    path=ROOT/'question_4/evaluation/Human_All_Ratings_Blank_Template.csv'
+    if not path.exists():return 0
+    data=rows(path)
     keys=['coherence_1_5','grammar_1_5','relevance_1_5','creativity_surprise_1_5']
     return sum(all(x.get(k,'').strip() for k in keys) for x in data)
 def cover(spans,q1pages):
@@ -102,14 +104,16 @@ def cover(spans,q1pages):
     return document(story,'group overview')
 def integration_appendix():
     story=[];title(story,'Experimental summary and limitations')
-    table(story,[['Question','Experiment and result','Limitations'],['Q1: translation','50,000 training pairs; LSTM baseline versus additive attention; test BLEU 0.60 versus 0.92','One seed per model; word-level vocabulary; filtered test subset; low translation quality'],['Q2: review ratings','200,000 training reviews; two seeds; test Macro F1 0.6351 for BiGRU versus 0.6706 for RoBERTa','Two seeds; sequence truncation; mixed training topology; pretrained versus non-Transformer comparison'],['Q3: summarization','2,048 training examples; 11,490 test articles; revised model ROUGE-1 1.7506 versus Lead-3 39.9077','Small ordered subset; pervasive repetition; reused test benchmark; no competitive quality claim'],['Q4: story generation','20,000 training stories; RNN/LSTM test perplexity 16.88/13.40; seven challenge prompts','Prompt drift and repetition; pooled metrics include prompts; human-rating results not yet available']],[75,235,180])
-    p(story,'Q4 length measurement: original pooled metrics include prompt text and use an excessive-length threshold beyond the 80-new-token cap. Supplemental analysis of the separately saved general-generation corpus gives continuation-only means of 63.43 words (RNN) and 67.69 (LSTM), with 24/35 and 33/35 reaching 80 generated tokens. These are separate-corpus, descriptive cap counts; they are not replacements for original pooled metrics or evidence of semantic incompleteness.')
+    table(story,[['Question','Experiment and result','Limitations'],['Q1: translation','50,000 training pairs; LSTM baseline versus additive attention; test BLEU 0.60 versus 0.92','One seed per model; word-level vocabulary; filtered test subset; low translation quality'],['Q2: review ratings','200,000 training reviews; two seeds; test Macro F1 0.6351 for BiGRU versus 0.6706 for RoBERTa','Two seeds; sequence truncation; mixed training topology; pretrained versus non-Transformer comparison'],['Q3: summarization','2,048 training examples; 11,490 test articles; revised model ROUGE-1 1.7506 versus Lead-3 39.9077','Small ordered subset; pervasive repetition; reused test benchmark; no competitive quality claim'],['Q4: story generation','20,000 training stories; RNN/LSTM test perplexity 16.88/13.40; seven challenge prompts','Prompt drift and repetition; pooled metrics include prompts; AI-simulated proxy results are labelled separately; human sheets remain blank as stated by the authors']],[75,235,180])
+    p(story,'Q4 length measurements use separate sample sets. The original pooled metrics summarize 35 general-prompt outputs per model and include prompt words. The latest report separately measures all 84 challenge records after removing the exact prompt: 42 records per model, with mean continuation lengths 62.9 words (RNN) and 68.4 (LSTM); two and one continuations respectively are shorter than 20 words. These are descriptive length flags, not proof of incomplete stories. The authors note that an 180-word threshold is unreachable under their 80-new-token cap.')
     p(story,'Across the experiments, attention and pretraining improve some measured tasks but do not guarantee fluent generation, factual accuracy or narrative coherence. Next-token loss and overlap/diversity metrics address different aspects of performance. Qualitative examples and explicit error analysis are needed to interpret the numerical results.')
     p(story,'The supplied source, configurations, executed notebooks, predictions, figures and model-specific report sections document the experiment settings. Reproduction instructions are provided in the main README and each question directory. Dataset/model revisions and package versions are recorded where available; numerical equivalence across environments is not guaranteed.')
     return document(story,'experimental summary')
 def main():
     parser=argparse.ArgumentParser();parser.add_argument('--font',type=Path,default=Path('C:/Windows/Fonts/Nirmala.ttc'));args=parser.parse_args()
     if not args.font.exists():raise FileNotFoundError('Pass --font with a Devanagari TrueType font (Nirmala/Noto Sans Devanagari). The final PDF embeds it.')
+    import runpy
+    runpy.run_path(str(ROOT/'question_4/build_report.py'))['build_report']()
     q1=q1_section(args.font)
     parts=[('Question 1',q1),('Question 2',(ROOT/'question_2/report/Q2_Technical_Report.pdf').read_bytes()),('Question 3',(ROOT/'question_3/Final_Report.pdf').read_bytes()),('Question 4',(ROOT/'question_4/Plot_Twist_Generator_Final_Report.pdf').read_bytes())]
     counts={name:len(PdfReader(io.BytesIO(data)).pages) for name,data in parts}

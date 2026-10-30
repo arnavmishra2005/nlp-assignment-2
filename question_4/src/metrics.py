@@ -1,6 +1,5 @@
 import json
 import math
-import random
 import re
 from pathlib import Path
 
@@ -40,10 +39,7 @@ def evaluate_loss(model, loader, device, pad_id):
     return loss, math.exp(min(loss, 20))
 
 def main():
-    random.seed(config.SEED)
     torch.manual_seed(config.SEED)
-    if torch.cuda.is_available():
-        torch.cuda.manual_seed_all(config.SEED)
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
     vocab = Vocab.load(config.ARTIFACT_DIR / "vocab.json")
     test_loader = build_dataloader(load_processed("test"), vocab.pad_id, shuffle=False)
@@ -52,6 +48,7 @@ def main():
         model = load_model(name, device, vocab)
         test_loss, test_ppl = evaluate_loss(model, test_loader, device, vocab.pad_id)
         outputs = []
+        output_prompts = []
         for prompt in PROMPTS:
             for strategy, temperature, top_k in [
                 ("greedy", 1.0, 10),
@@ -61,7 +58,14 @@ def main():
                 ("top_k", 1.0, 10)
             ]:
                 outputs.append(generate(model, vocab, prompt, device, strategy, temperature, top_k, 80))
-        lengths = [len(re.findall(r"\b\w+(?:'\w+)?\b", output)) for output in outputs]
+                output_prompts.append(prompt)
+        word_pattern = r"\b\w+(?:'\w+)?\b"
+        full_lengths = [len(re.findall(word_pattern, output)) for output in outputs]
+        continuation_texts = [
+            output[len(prompt):].strip() if output.startswith(prompt) else output
+            for output, prompt in zip(outputs, output_prompts)
+        ]
+        continuation_lengths = [len(re.findall(word_pattern, text)) for text in continuation_texts]
         row = {
             "model": name,
             "test_loss": test_loss,
@@ -69,10 +73,13 @@ def main():
             "distinct_1": distinct_n(outputs, 1),
             "distinct_2": distinct_n(outputs, 2),
             "mean_repetition_rate_3gram": sum(repetition_rate(x) for x in outputs) / len(outputs),
-            "average_generated_words_including_prompt": sum(lengths) / len(lengths),
+            "average_generated_words_including_prompt": sum(full_lengths) / len(full_lengths),
+            "average_continuation_words_excluding_prompt": sum(continuation_lengths) / len(continuation_lengths),
             "sample_count": len(outputs),
-            "premature_end_count_under_20_words": sum(length < 20 for length in lengths),
-            "overlong_count_at_least_180_words": sum(length >= 180 for length in lengths),
+            "continuation_count_under_20_words": sum(length < 20 for length in continuation_lengths),
+            "continuation_count_at_least_180_words": sum(length >= 180 for length in continuation_lengths),
+            "max_new_tokens": 80,
+            "length_measurement_note": "Full-output length includes the prompt; continuation length is measured after stripping the exact prompt prefix. The 180-word continuation threshold is unreachable under the 80-new-token cap.",
             "repetition_definition": "1 - unique 3-gram count / total 3-gram count, averaged per output"
         }
         history_path = config.ARTIFACT_DIR / f"{name}_history.json"

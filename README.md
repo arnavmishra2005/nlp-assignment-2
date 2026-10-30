@@ -17,16 +17,16 @@ See [CONTRIBUTIONS.md](CONTRIBUTIONS.md) for the contribution split and question
 
 ## Combined technical report
 
-**[Open the combined technical report](report/Combined_Technical_Report.pdf)** - 30 pages, with bookmarks for all four questions. [Report page/check record](report/combined_report_check.json).
+**[Open the combined technical report](report/Combined_Technical_Report.pdf)** - 32 pages, with bookmarks for all four questions. [Report page/check record](report/combined_report_check.json).
 
 | Section | Combined PDF pages | Included evidence |
 |---|---|---|
 | Q1: attention-based translation | 2-6 | Method, curves, metrics, length analysis and six translation/attention cases |
 | Q2: Amazon review ratings | 7-12 | Exactly six pages: training, final metrics, ablation, seven examples and token importance |
 | Q3: scratch Transformer summarization | 13-23 | Revised experiment, ROUGE/Lead-3, generation attention, five cases, diagnosis and limitations |
-| Q4: plot-twist generator | 24-29 | Both models, decoding/challenge, quantitative results, failures and explicit human-evaluation status |
+| Q4: plot-twist generator | 24-31 | Latest model/decoding analysis, corrected length measurements, generated examples and labelled simulated-evaluation appendix |
 
-Page 1 contains the group overview; page 30 summarizes the experimental comparison and limitations. Q2 occupies exactly six pages, including figures and tables.
+Page 1 contains the group overview; page 32 summarizes the experimental comparison and limitations. Q2 occupies exactly six pages, including figures and tables.
 
 ## Repository structure
 
@@ -141,7 +141,7 @@ The tokenizer is trained only on the declared training subset. The code verifies
 
 ### Q4 - Plot-twist generation with RNN and LSTM
 
-The two included checkpoints and vocabulary allow generation without preprocessing or retraining:
+The two included checkpoints and vocabulary allow generation without preprocessing or retraining. Matching small validation/test token-ID subsets are also provided for evaluation:
 
 ```bash
 cd question_4
@@ -160,11 +160,11 @@ python -m src.plot_curves
 python -m src.metrics
 ```
 
-Preprocessing downloads TinyStories and builds the 20k/1k/1k story-level splits. Metrics reevaluation requires those processed test sequences. Both model files and `artifacts/vocab.json` must remain a matching set.
+Preprocessing downloads TinyStories and builds the 20k/1k/1k story-level splits. The included validation/test sequences support checkpoint evaluation directly; training requires a regenerated training split. Both model files and `artifacts/vocab.json` must remain a matching set.
 
 **Recorded:** RNN/LSTM test perplexities 16.88/13.40; seven challenge openings and 84 records. Greedy, temperatures 0.5/0.8/1.2 and top-k outputs are included. Neither lower perplexity nor diversity proves better storytelling.
 
-**Required human evaluation remains incomplete.** At least ten generated continuations must receive genuine blinded 1-5 scores for coherence, grammar, relevance and creativity/surprise, with three evaluators wherever feasible. Forms/key/instructions are in `question_4/results/`. Keep `human_eval_key.csv` away from evaluators until scoring finishes. Do not regenerate forms over collected ratings. [Detailed Q4 instructions](question_4/README.md).
+The supplied evaluation package contains **90 AI-simulated proxy ratings** for 30 samples, with separate analysis and explicitly blank human-rating sheets. The authors state that these are not independent human ratings. This provenance is retained in the Q4 report and evaluation files. [Detailed Q4 instructions](question_4/README.md).
 
 ## Checkpoints, data and GitHub policy
 
@@ -173,6 +173,7 @@ Preprocessing downloads TinyStories and builds the 20k/1k/1k story-level splits.
 | Source, configs, requirements, measured results/figures, executed notebooks and combined PDF | Yes | Yes |
 | `question_4/checkpoints/rnn.pt` and `lstm.pt` | **Yes: explicit ignore exceptions** | **Yes: required by Q4** |
 | `question_4/artifacts/vocab.json` | Yes | Yes: required to use the checkpoints |
+| `question_4/data/processed/val.pt` and `test.pt` (small supplied evaluation subsets) | Yes | Yes |
 | Full datasets/processed training splits, environments and caches | No | No |
 | Q3 checkpoints | No | No: explicitly excluded by Q3 |
 | Large Q2 checkpoints and original phase ZIPs | No | No; retained locally for model preservation |
@@ -180,7 +181,7 @@ Preprocessing downloads TinyStories and builds the 20k/1k/1k story-level splits.
 
 Q4's models are about 21.1 MiB and 25.7 MiB. Both fit ordinary Git's current per-file limit; use command-line Git for this repository. The second exceeds GitHub's 25 MiB browser-upload limit. [GitHub file-size documentation](https://docs.github.com/en/repositories/working-with-files/managing-large-files/about-large-files-on-github).
 
-Root and Q4-specific `.gitignore` files exclude generated data while allowing the two required Q4 models and its data README. Ignoring a file affects Git tracking; the submission ZIP must follow its own inclusion rules. Do not use a Git archive of tracked files until required files have actually been committed.
+Root and Q4-specific `.gitignore` files exclude full/generated training data while allowing the two required Q4 models, supplied small evaluation subsets and data README. Ignoring a file affects Git tracking; the submission ZIP must follow its own inclusion rules. Do not use a Git archive of tracked files until required files have actually been committed.
 
 From repository root, review and push when ready:
 
@@ -218,8 +219,8 @@ Validate the extracted ZIP, confirm that report numbers match the included measu
 | Q1 notebook cannot find weights | Train both models first in a working copy; the submitted executed notebook is available for immediate inspection |
 | Q2 source/prerequisite mismatch | Use matching verified source/config/data/phase inputs; follow the staged guide rather than bypassing fingerprint checks |
 | Q3 input/tokenizer fingerprint mismatch | Use the pinned subset sizes/order and declared tokenizer; do not silently reuse a different workspace |
-| Q4 metrics missing `test.pt` | Run preprocessing in a working copy; generation itself only needs supplied models/vocabulary |
+| Q4 evaluation cannot find `test.pt` | Restore the supplied matching evaluation subset, or preprocess in a working copy; generation only needs models/vocabulary |
 | Hindi font unavailable when rebuilding PDF | Pass a compatible Devanagari font using `--font`; the existing PDF can be read without installing one |
-| Blank Q4 scores | Obtain genuine ratings; a prepared template is not a completed evaluation |
+| Q4 rating provenance | The supplied proxy scores are AI-simulated; human sheets are labelled separately |
 
 Original downloads and audit/backup records are retained locally under `_working_archive/` and intentionally absent from the Git/submission contents. See each question's README for experiment-specific details and dataset usage conditions.

@@ -1,3 +1,3 @@
-# Dataset files
+# Evaluation data
 
-Raw TinyStories data and processed token-ID splits are intentionally not included in this submission archive. Run `python -m src.preprocess` from the project root to download the selected TinyStories stream subset and recreate `data/processed/{train,val,test}.pt`. An internet connection is required. The saved vocabulary and recorded data statistics remain in `artifacts/`.
+The supplied val.pt and test.pt contain 1,000 held-out token-ID sequences each, matching artifacts/vocab.json. They support evaluation of the included model checkpoints without downloading or regenerating splits. The 20,000-story training subset and full TinyStories dataset are not included. Run src.preprocess in a working copy for fresh training data.

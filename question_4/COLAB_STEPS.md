@@ -13,7 +13,7 @@
 
 ## 2. Upload and unzip the repository
 
-Download `Plot_Twist_Generator_Submission.zip` from this chat. In a Colab cell:
+Download `plot-twist-generator-colab.zip` from this chat. In a Colab cell:
 
 ```python
 from google.colab import files
@@ -23,8 +23,8 @@ uploaded = files.upload()
 Choose the ZIP file, then run:
 
 ```python
-!unzip -q Plot_Twist_Generator_Submission.zip
-%cd /content/plot-twist-generator
+!unzip -q plot-twist-generator-colab.zip
+%cd /content/plot-twist-generator-colab
 !ls
 ```
 
@@ -84,7 +84,7 @@ Repeat with `--model lstm`. Outputs are saved under `results/`.
 !python -m src.human_eval
 ```
 
-Use at least 3 real raters where feasible. `src.human_eval` creates a blinded form, a 3-rater template, and a separate `results/human_eval_key.csv`. Do not share the key before ratings are complete. Blank rating cells are not results. Do not edit model-generated outputs.
+Use at least 3 raters for the blinded CSV. Do not edit generated outputs. Keep the mapping from sample IDs to model and decoding strategy separately for analysis.
 
 ## 9. Persist files to Google Drive
 
@@ -104,7 +104,7 @@ Run this copy command again after generating new results.
 
 ```python
 %cd /content
-!zip -qr Plot_Twist_Generator_Submission.zip plot-twist-generator
+!zip -qr plot-twist-generator-results.zip plot-twist-generator-colab
 from google.colab import files
-files.download("/content/Plot_Twist_Generator_Submission.zip")
+files.download("/content/plot-twist-generator-results.zip")
 ```

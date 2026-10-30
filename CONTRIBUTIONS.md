@@ -47,7 +47,7 @@
 |---|---|---|
 | **Mohak Arya & Kanishk Nandeshwar** | Joint Q4 implementation and experiments | `question_4/src/data.py`, `preprocess.py`, `models.py`, `train.py`, `config.py` - TinyStories preparation, shared vocabulary, comparable vanilla RNN/LSTM next-token training; `checkpoints/rnn.pt`, `checkpoints/lstm.pt`, `artifacts/vocab.json` and training histories |
 | **Mohak Arya & Kanishk Nandeshwar** | Joint generation and quantitative evaluation | `src/generate.py`, `challenge.py`, `metrics.py`, `plot_curves.py`; greedy/three-temperature/top-k continuations, seven-opening challenge with 84 records, perplexity/diversity/repetition/length results and loss curves |
-| **Mohak Arya & Kanishk Nandeshwar** | Joint human-evaluation preparation and report | `src/human_eval.py`, blinded samples, separate answer key and rating forms; `Plot_Twist_Generator_Final_Report.pdf` and editable DOCX; human-evaluation design and reporting |
+| **Mohak Arya & Kanishk Nandeshwar** | Joint human-evaluation preparation and report | `src/human_eval.py`, blinded samples and evaluator forms, labelled simulated proxy analysis in `evaluation/`; `Plot_Twist_Generator_Final_Report.pdf`, `Plot_Twist_Generator_Report_Evaluation.docx`, and `Q4_Part6.md` - evaluation design, analysis and reporting |
 
 ---
 

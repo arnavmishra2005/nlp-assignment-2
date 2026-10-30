@@ -1,11 +1,11 @@
 {
   "combined_report": "report/Combined_Technical_Report.pdf",
-  "total_pages": 30,
+  "total_pages": 32,
   "section_pages": {
     "Question 1": 5,
     "Question 2": 6,
     "Question 3": 11,
-    "Question 4": 6
+    "Question 4": 8
   },
   "section_spans": {
     "Question 1": [
@@ -22,10 +22,10 @@
     ],
     "Question 4": [
       24,
-      29
+      31
     ]
   },
   "q2_page_limit_passed": true,
   "human_rating_rows_filled": 0,
-  "sha256": "02b4fed6b660746ffe8fe95937928f180552d0acadd99c8495b7eae98e36a2c2"
+  "sha256": "08bfd52a42184a532eba46542f4ff7263af2cbf105753840b31034557ffd01c9"
 }
