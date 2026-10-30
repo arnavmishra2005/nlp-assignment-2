@@ -1,9 +1,7 @@
 # NLP Group Assignment 2
 
 **DSL 504 - Natural Language Processing**  
-**Deadline:** 30 October 2026, 11:59 PM IST  
 **Repository:** [arnavmishra2005/nlp-assignment-2](https://github.com/arnavmishra2005/nlp-assignment-2)  
-**Group coordinator and final submitter:** Arnav Mishra
 
 ## Team members
 
