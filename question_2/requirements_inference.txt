@@ -1,0 +1,9 @@
+# For predict.py only; preserve installed torch>=2.5,<3.
+transformers==4.51.3
+huggingface-hub==0.30.2
+tokenizers>=0.21,<0.22
+safetensors>=0.4.3
+numpy>=1.26,<3
+pandas>=2.2,<3
+requests>=2.31,<3
+tqdm>=4.66,<5

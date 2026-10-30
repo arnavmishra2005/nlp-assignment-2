@@ -1,0 +1,65 @@
+[
+  {
+    "model": "lstm",
+    "strategy": "top_k",
+    "temperature": 0.8,
+    "top_k": 10,
+    "seed": 42,
+    "prompt": "One night, a student found an exam paper with tomorrow's answers.",
+    "output": "One night, a student found an exam paper with tomorrow's answers. the little girl decided to take a peek in the woods and look for shells in the woods . she put on the hat and started to pick her shoes . after the day , she found a magical key . it was so big , it could be a bit scary . it was a little bird . the girl and the little girl was so happy . they hugged and kissed , \" this is the best way"
+  },
+  {
+    "model": "lstm",
+    "strategy": "top_k",
+    "temperature": 0.8,
+    "top_k": 10,
+    "seed": 42,
+    "prompt": "Mia opened the old box and discovered something nobody had seen before.",
+    "output": "Mia opened the old box and discovered something nobody had seen before. she was very excited ! the girl was scared . he ran around her room and saw a little girl . she thought it was so cute and she wanted her pet . she wanted to go to the store and find it on the stove . she was excited and ran to her room . she saw a big pile of candy in the distance . she was very excited and tried to make it look for the girl"
+  },
+  {
+    "model": "lstm",
+    "strategy": "top_k",
+    "temperature": 0.8,
+    "top_k": 10,
+    "seed": 42,
+    "prompt": "The detective solved the murder before it happened.",
+    "output": "The detective solved the murder before it happened. the sun was so hot and it made a loud noise . the child was so surprised ! the wind started to blow , and the air was very happy . but then it started to rain . suddenly , it felt a bit scared , so it flew down . the ground started to move ! it was very big and smaller until it had to turn down and take out . it was stuck in the air !"
+  },
+  {
+    "model": "lstm",
+    "strategy": "top_k",
+    "temperature": 0.8,
+    "top_k": 10,
+    "seed": 42,
+    "prompt": "One morning, everyone in the village forgot the previous day.",
+    "output": "One morning, everyone in the village forgot the previous day. jimmy was very curious and asked if he could play with them . his friends said yes ' yes ! when the parade came to the store , they were very competitive and couldn't believe what happened . jack was so excited , so he started to build a big circle . he was amazed , and his family was very pleased with it . when they got there , they started to unpack the door . they saw lots"
+  },
+  {
+    "model": "lstm",
+    "strategy": "top_k",
+    "temperature": 0.8,
+    "top_k": 10,
+    "seed": 42,
+    "prompt": "A letter arrived from exactly one hundred years in the future.",
+    "output": "A letter arrived from exactly one hundred years in the future. it was a big , white apple . it was very pretty and the little boy wanted to go on it . but it wanted to try to get a closer look . but it seemed to rot ! the little boy saw how the boy got closer , and his mom said , \" i need to go to the pond . i am a bit brave . let's go inside and take a look ! \" the boy"
+  },
+  {
+    "model": "lstm",
+    "strategy": "top_k",
+    "temperature": 0.8,
+    "top_k": 10,
+    "seed": 42,
+    "prompt": "A shy robot wanted to make one human friend.",
+    "output": "A shy robot wanted to make one human friend. the little girl said , \" i want to go and i need to buy some ice - cream today . let's go find a new one . \" anna took a piece of paper and opened the lid . she was so proud ! he said : \" this is the best present ever ! \" the child was so happy ! she took her to the doctor . he said , \" what is this ? \" the"
+  },
+  {
+    "model": "lstm",
+    "strategy": "top_k",
+    "temperature": 0.8,
+    "top_k": 10,
+    "seed": 42,
+    "prompt": "The little fox had to solve a problem before sunset.",
+    "output": "The little fox had to solve a problem before sunset. he was very proud of himself . he wanted to be a good friends , but he knew he had to stay safe from one . one day , a boy came to the park . it had a big bag of candy . he was so excited that he wanted to see how to make it look like . he ran around and around and saw a big tree . he thought it was a very special place for"
+  }
+]

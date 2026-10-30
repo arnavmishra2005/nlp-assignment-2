@@ -1,0 +1,65 @@
+[
+  {
+    "model": "rnn",
+    "strategy": "greedy",
+    "temperature": 0.8,
+    "top_k": 10,
+    "seed": 42,
+    "prompt": "One night, a student found an exam paper with tomorrow's answers.",
+    "output": "One night, a student found an exam paper with tomorrow's answers. it was a big , scary monster . the bird was very sad and wanted to help . the bird flew away and the bird flew away . the bird was so happy and thanked the bird . the bird was so happy and thanked the bird . the bird was so happy and thanked the bird . the bird was so happy and thanked the bird . the bird was so happy and thanked the bird . the bird"
+  },
+  {
+    "model": "rnn",
+    "strategy": "greedy",
+    "temperature": 0.8,
+    "top_k": 10,
+    "seed": 42,
+    "prompt": "Mia opened the old box and discovered something nobody had seen before.",
+    "output": "Mia opened the old box and discovered something nobody had seen before. she was so excited and wanted to see what was inside . she asked her mom if she could have a snack . she said , \" let's go to the store and see a big tree . \" the little girl was so happy and thanked the little girl . she was so happy and thanked the little girl . she was so happy and thanked the little girl . she was so happy and thanked the little girl"
+  },
+  {
+    "model": "rnn",
+    "strategy": "greedy",
+    "temperature": 0.8,
+    "top_k": 10,
+    "seed": 42,
+    "prompt": "The detective solved the murder before it happened.",
+    "output": "The detective solved the murder before it happened. the little boy was so excited to see the world . he was so excited ! he ran to the tree and started to climb the tree . he was so happy and thanked the bird . he was so happy and thanked the bird . he was so happy and thanked the bird . he was so happy and thanked the bird . he was so happy and thanked the bird . he was so happy and thanked the"
+  },
+  {
+    "model": "rnn",
+    "strategy": "greedy",
+    "temperature": 0.8,
+    "top_k": 10,
+    "seed": 42,
+    "prompt": "One morning, everyone in the village forgot the previous day.",
+    "output": "One morning, everyone in the village forgot the previous day. they were walking in the park when they saw a big tree . the bird was very sad and wanted to help . the bird flew away and the bird flew away . the bird was so happy and thanked the bird . the bird was so happy and thanked the bird . the bird was so happy and thanked the bird . the bird was so happy and thanked the bird . the bird was so happy and thanked"
+  },
+  {
+    "model": "rnn",
+    "strategy": "greedy",
+    "temperature": 0.8,
+    "top_k": 10,
+    "seed": 42,
+    "prompt": "A letter arrived from exactly one hundred years in the future.",
+    "output": "A letter arrived from exactly one hundred years in the future. he was so excited ! he ran to the tree and saw a big tree . he was so excited ! he ran to the tree and started to climb the tree . he was so happy and thanked the bird . he was so happy and thanked the bird . he was so happy and thanked the bird . he was so happy and thanked the bird . he was so happy and thanked the bird . he was"
+  },
+  {
+    "model": "rnn",
+    "strategy": "greedy",
+    "temperature": 0.8,
+    "top_k": 10,
+    "seed": 42,
+    "prompt": "A shy robot wanted to make one human friend.",
+    "output": "A shy robot wanted to make one human friend. he was so excited to see the world . he was so excited ! he ran to the tree and started to climb the tree . he was so happy and thanked the bird . he was so happy and thanked the bird . he was so happy and thanked the bird . he was so happy and thanked the bird . he was so happy and thanked the bird . he was so happy and thanked the bird ."
+  },
+  {
+    "model": "rnn",
+    "strategy": "greedy",
+    "temperature": 0.8,
+    "top_k": 10,
+    "seed": 42,
+    "prompt": "The little fox had to solve a problem before sunset.",
+    "output": "The little fox had to solve a problem before sunset. he was very excited to see the world . he was so excited to see the world around him . he was so excited ! he ran to the tree and started to climb the tree . he was so happy and thanked the bird . he was so happy and thanked the bird . he was so happy and thanked the bird . he was so happy and thanked the bird . he was so happy and thanked the"
+  }
+]

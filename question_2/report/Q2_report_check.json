@@ -1,0 +1,8 @@
+{
+  "pages": 6,
+  "maximum_pages": 6,
+  "qualitative_forward_cases": 5,
+  "qualitative_reverse_cases": 2,
+  "built_from": "inspected Q2_evaluate_results.zip measurements",
+  "model_training_performed": false
+}

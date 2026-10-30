@@ -1,0 +1,13 @@
+# Keep Kaggle's CUDA torch installation; do not replace it with CPU torch.
+# torch is validated separately; preserve the installed CUDA build.
+transformers==4.51.3
+datasets==3.6.0
+huggingface-hub==0.30.2
+tokenizers>=0.21,<0.22
+safetensors>=0.4.3
+numpy>=1.26,<3
+pandas>=2.2,<3
+scikit-learn>=1.4,<2
+matplotlib>=3.8,<4
+tqdm>=4.66,<5
+requests>=2.31,<3

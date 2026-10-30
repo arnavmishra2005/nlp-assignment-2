@@ -1,5 +1,41 @@
-﻿.venv/
-venv/
-__pycache__/
-.ipynb_checkpoints/
-.env
+# Private/local working files; never include in the group submission
+/_working_archive/
+/.venv/
+**/.venv/
+**/venv/
+**/__pycache__/
+**/.ipynb_checkpoints/
+**/.pytest_cache/
+**/.env
+/_working_archive/
+
+# Regenerated datasets, model runs and distribution outputs
+/question_2/data/
+/question_2/artifacts/
+/question_2/dist/
+/question_4/data/*
+!/question_4/data/README.md
+/work/
+/work_q3/
+/submission_build/
+/NLP_Assignment_2_Submission.zip
+
+# Exclude regenerated/large models by default; explicitly retain the two required Q4 models.
+*.pt
+*.pth
+*.safetensors
+
+# Q1 processed corpora and Q3 scratch-training workspace
+/question_1/results/*.pkl
+/question_1/results_run1_30k/*.pkl
+/question_3/data/
+/question_3/checkpoints/
+*.pyc
+*.tmp
+*.partial
+*.zip
+
+# Required Q4 deliverables: ordinary Git is sufficient for these two files.
+!/question_4/checkpoints/
+!/question_4/checkpoints/rnn.pt
+!/question_4/checkpoints/lstm.pt

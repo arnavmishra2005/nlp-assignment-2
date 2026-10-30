@@ -1,0 +1,19 @@
+{
+  "status": "complete",
+  "signature": "3bd61c4eb4ce670b8572f9196178ff2b021389808b222787cadad29d52c57a61",
+  "model": "roberta_mean",
+  "seed": 42,
+  "best_epoch": 3,
+  "best_validation_macro_f1": 0.6646538710458765,
+  "epochs_completed": 3,
+  "elapsed_seconds": 23172.086109167,
+  "best_sha256": "183c200be0d2f930fc409489211ec4fef2efa64f828c0f29d87ca8714748e619",
+  "parameters": 124058885,
+  "peak_gpu_memory_gib": 5.187255382537842,
+  "evidence_sha256": {
+    "run.json": "12e1bd7624facb7218494adb9dd96ff46e3c09c8e6aff9b43e56a98bd5ab7f17",
+    "history.json": "e4c630c6291a5d29b47e2bd2232ab1c8aadf483105709bce726c2c8ed33e8d2d",
+    "best.pt": "183c200be0d2f930fc409489211ec4fef2efa64f828c0f29d87ca8714748e619",
+    "environment-freeze.txt": "1ca9525d8db137b0a488028ded8f5cfc812b59bb7aeb79c5e294cf96efc87416"
+  }
+}

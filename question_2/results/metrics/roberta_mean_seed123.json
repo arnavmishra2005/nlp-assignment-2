@@ -1,0 +1,63 @@
+{
+  "model": "roberta_mean",
+  "seed": 123,
+  "protocol_hash": "0d1904a9941bdb7b65a1d8eeeeccc627bfdf4c5c2ff8dbbfb8c60c44f5384d73",
+  "prediction_sha256": "fb0129f84ecb9faabd856ea8e2d2baa739b91bea7e8fca80a39e8eb70b39c944",
+  "metrics": {
+    "accuracy": 0.6716,
+    "macro_f1": 0.6712462116401379,
+    "mae": 0.3672,
+    "per_class_f1": [
+      0.7513812154696132,
+      0.5967058823529412,
+      0.575,
+      0.6366925064599483,
+      0.7964514539181863
+    ],
+    "adjacent_error_rate": 0.2948,
+    "distant_error_rate": 0.0336,
+    "adjacent_share_of_errors": 0.8976857490864799,
+    "distant_share_of_errors": 0.1023142509135201,
+    "extreme_1_vs_5_error_rate": 0.0008,
+    "n": 5000,
+    "confusion_matrix": [
+      [
+        748,
+        214,
+        32,
+        3,
+        3
+      ],
+      [
+        178,
+        634,
+        174,
+        12,
+        2
+      ],
+      [
+        56,
+        250,
+        552,
+        130,
+        12
+      ],
+      [
+        8,
+        22,
+        150,
+        616,
+        204
+      ],
+      [
+        1,
+        5,
+        12,
+        174,
+        808
+      ]
+    ],
+    "loss": 0.7792793291091918
+  },
+  "baseline_test_preprocessing": null
+}

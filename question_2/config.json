@@ -1,0 +1,30 @@
+{
+  "dataset": {
+    "repo": "SetFit/amazon_reviews_multi_en",
+    "revision": "ec73b665e4be0f567b69d39425355401cfe0d29b",
+    "title_repo": "buruzaemon/amazon_reviews_multi",
+    "title_revision": "486fbd96a972291f6d7b4cad9d88088c5983244c",
+    "expected_sizes": {"train": 200000, "validation": 5000, "test": 5000}
+  },
+  "seeds": [42, 123],
+  "baseline": {
+    "max_length": 200, "min_frequency": 2, "max_vocab": 60000,
+    "embedding_dim": 100, "hidden_dim": 128, "attention_dim": 128,
+    "num_layers": 2, "dropout": 0.3, "batch_size": 128,
+    "eval_batch_size": 256, "learning_rate": 0.001, "epochs": 8,
+    "patience": 2, "accumulation_steps": 1, "precision": "fp32"
+  },
+  "roberta": {
+    "model_name": "FacebookAI/roberta-base",
+    "revision": "e2da8e2f811d1448a5b465c236feacd80ffbac7b",
+    "max_length": 256, "dropout": 0.2, "batch_size": 16,
+    "eval_batch_size": 32, "learning_rate": 0.00002,
+    "weight_decay": 0.01, "warmup_ratio": 0.08, "epochs": 3,
+    "patience": 1, "accumulation_steps": 2, "precision": "auto"
+  },
+  "training": {
+    "num_workers": 2, "gradient_clip": 1.0, "log_every_batches": 100,
+    "checkpoint_every_optimizer_steps": 500, "min_delta": 0.0001
+  },
+  "qualitative_seed": 42
+}

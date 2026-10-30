@@ -1,0 +1,25 @@
+{
+  "test_pairs": 11490,
+  "scores": {
+    "transformer": {
+      "rouge1": 1.7506291713378965,
+      "rouge2": 0.047197442468076216,
+      "rougeL": 1.6256700567757458,
+      "rougeLsum": 1.704161974620258
+    },
+    "lead3": {
+      "rouge1": 39.90769721535388,
+      "rouge2": 17.376885586850005,
+      "rougeL": 24.90444281203507,
+      "rougeLsum": 36.20002757818758
+    }
+  },
+  "unique_predictions": 4190,
+  "scale": "0-100, macro mean per-example F1",
+  "use_stemmer": true,
+  "best_epoch": 12,
+  "decoding": "greedy, 128 generated-token limit, cached encoder and decoder K/V",
+  "eos_terminated": 3964,
+  "repeated_trigram_examples": 11036,
+  "evaluation_seconds": 168.00550850000582
+}

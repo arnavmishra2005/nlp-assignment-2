@@ -1,0 +1,72 @@
+{
+  "model": "baseline",
+  "seed": 42,
+  "protocol_hash": "0d1904a9941bdb7b65a1d8eeeeccc627bfdf4c5c2ff8dbbfb8c60c44f5384d73",
+  "prediction_sha256": "3526c33e57f067cbf9aefd0773bab335643f566ebb77240b8b8de124664ae3c5",
+  "metrics": {
+    "accuracy": 0.6434,
+    "macro_f1": 0.6399906453572305,
+    "mae": 0.4224,
+    "per_class_f1": [
+      0.722007722007722,
+      0.5533199195171026,
+      0.5436105476673428,
+      0.6,
+      0.7810150375939849
+    ],
+    "adjacent_error_rate": 0.3024,
+    "distant_error_rate": 0.0542,
+    "adjacent_share_of_errors": 0.8480089736399327,
+    "distant_share_of_errors": 0.1519910263600673,
+    "extreme_1_vs_5_error_rate": 0.0022,
+    "n": 5000,
+    "confusion_matrix": [
+      [
+        748,
+        188,
+        52,
+        5,
+        7
+      ],
+      [
+        224,
+        550,
+        200,
+        17,
+        9
+      ],
+      [
+        82,
+        221,
+        536,
+        127,
+        34
+      ],
+      [
+        14,
+        21,
+        166,
+        552,
+        247
+      ],
+      [
+        4,
+        8,
+        18,
+        139,
+        831
+      ]
+    ],
+    "loss": 0.8346452423095703
+  },
+  "baseline_test_preprocessing": {
+    "unknown_token_rate": 0.0034924005364327226,
+    "truncation_rate": 0.007,
+    "length_percentiles": [
+      33.0,
+      87.10000000000036,
+      114.0,
+      527.0
+    ]
+  }
+}

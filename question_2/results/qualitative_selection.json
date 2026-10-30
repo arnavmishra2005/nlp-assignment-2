@@ -1,0 +1,17 @@
+{
+  "seed": 42,
+  "selection": "ascending review ID, first requested count",
+  "counts": {
+    "baseline_wrong_roberta_right": {
+      "available": 500,
+      "requested": 5,
+      "selected": 5
+    },
+    "baseline_right_roberta_wrong": {
+      "available": 362,
+      "requested": 2,
+      "selected": 2
+    }
+  },
+  "note": "Fill human_error_category and human_analysis in a separate annotated copy"
+}

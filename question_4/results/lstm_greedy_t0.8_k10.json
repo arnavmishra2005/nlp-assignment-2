@@ -1,0 +1,65 @@
+[
+  {
+    "model": "lstm",
+    "strategy": "greedy",
+    "temperature": 0.8,
+    "top_k": 10,
+    "seed": 42,
+    "prompt": "One night, a student found an exam paper with tomorrow's answers.",
+    "output": "One night, a student found an exam paper with tomorrow's answers. the little girl was so excited ! she ran to the kitchen and opened it . she was so excited to see the little girl . she was so excited to see the little girl . she ran to the kitchen and opened it . she was so happy and excited to see what was inside . she was so excited to see the little girl and she was so happy . she put the key in the oven and"
+  },
+  {
+    "model": "lstm",
+    "strategy": "greedy",
+    "temperature": 0.8,
+    "top_k": 10,
+    "seed": 42,
+    "prompt": "Mia opened the old box and discovered something nobody had seen before.",
+    "output": "Mia opened the old box and discovered something nobody had seen before. she was so excited ! she ran to the kitchen and opened the door . inside the box , there was a big box . it was a big , shiny box . it was a big , shiny box . it was a big , shiny box . it was a big , shiny box . it was a big , shiny box . it was a big , shiny box . it was a big , shiny box"
+  },
+  {
+    "model": "lstm",
+    "strategy": "greedy",
+    "temperature": 0.8,
+    "top_k": 10,
+    "seed": 42,
+    "prompt": "The detective solved the murder before it happened.",
+    "output": "The detective solved the murder before it happened. the little girl was very excited . she had never seen anything like it before . she was so excited to see the big , beautiful flower . she was so excited ! she ran around the garden , looking for something to eat . she saw a big , green tree with a big smile on her face . she was so excited and started to climb the tree . she was so excited to see the rainbow !"
+  },
+  {
+    "model": "lstm",
+    "strategy": "greedy",
+    "temperature": 0.8,
+    "top_k": 10,
+    "seed": 42,
+    "prompt": "One morning, everyone in the village forgot the previous day.",
+    "output": "One morning, everyone in the village forgot the previous day. the family was very excited . they were going to the park to play . they saw a big , green field . the child was so excited . they ran to the park and saw a big , green field . the child was so excited ! they ran around the park , looking for something to eat . suddenly , the wind started to blow and the wind started to blow . the wind blew and the wind"
+  },
+  {
+    "model": "lstm",
+    "strategy": "greedy",
+    "temperature": 0.8,
+    "top_k": 10,
+    "seed": 42,
+    "prompt": "A letter arrived from exactly one hundred years in the future.",
+    "output": "A letter arrived from exactly one hundred years in the future. the sun was shining and the sky was very bright . the sun was shining brightly and the sky was very bright . the sun was shining brightly and the sky was very bright . the sun was shining brightly and the sky was very bright . the sun was shining brightly and the sky was very big . the sun was shining brightly and the sun was shining brightly . the sun was shining brightly and the sky was"
+  },
+  {
+    "model": "lstm",
+    "strategy": "greedy",
+    "temperature": 0.8,
+    "top_k": 10,
+    "seed": 42,
+    "prompt": "A shy robot wanted to make one human friend.",
+    "output": "A shy robot wanted to make one human friend. he was very excited to go to the store . he asked his mom if he could have some of the cake . he said yes and he was so excited . he wanted to show his mom how to use the box to make it look nice . he put on his shoes and went to the store . he saw a big , shiny object . he was so excited ! he wanted to show it to his"
+  },
+  {
+    "model": "lstm",
+    "strategy": "greedy",
+    "temperature": 0.8,
+    "top_k": 10,
+    "seed": 42,
+    "prompt": "The little fox had to solve a problem before sunset.",
+    "output": "The little fox had to solve a problem before sunset. he was so excited to see the big , shiny rock . he wanted to show it to his friends . he wanted to show his friends how to use the big , so he put it in his pocket . he was so excited to see the big , juicy apple . he was so excited to see the big , juicy apple . he was so happy and excited to show it to his mom . he was"
+  }
+]

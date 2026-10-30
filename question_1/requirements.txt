@@ -1,0 +1,8 @@
+# Required imports; original-run exact versions were not recorded.
+torch
+numpy
+datasets
+matplotlib
+sacrebleu
+notebook
+pandas

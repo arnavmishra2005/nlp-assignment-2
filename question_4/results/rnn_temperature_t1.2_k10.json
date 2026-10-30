@@ -1,0 +1,65 @@
+[
+  {
+    "model": "rnn",
+    "strategy": "temperature",
+    "temperature": 1.2,
+    "top_k": 10,
+    "seed": 42,
+    "prompt": "One night, a student found an exam paper with tomorrow's answers.",
+    "output": "One night, a student found an exam paper with tomorrow's answers. he took a deep breath and it was on top of the bird and it lit up . one , sam started to feel cold . lily's cat saw the little bird and cried . he asked jack would not find motor . cats said max , and bob promised to find his cheese horse to play . but billy was nervous and decided to pray . daddy and joe went home under it and shine together in his countryside"
+  },
+  {
+    "model": "rnn",
+    "strategy": "temperature",
+    "temperature": 1.2,
+    "top_k": 10,
+    "seed": 43,
+    "prompt": "Mia opened the old box and discovered something nobody had seen before.",
+    "output": "Mia opened the old box and discovered something nobody had seen before. she picked up the oyster and wrapped followed aside . she smiled and skipped € ™ s cheeks . and she wanted to pick it up and started so badly that she couldn't get out of pulled . she tried the flower on the walls and noticed no strange cloud . it was so green and soft , but then said , her skin said , \" help , try ! \" her dad smiled and sarah away . from"
+  },
+  {
+    "model": "rnn",
+    "strategy": "temperature",
+    "temperature": 1.2,
+    "top_k": 10,
+    "seed": 44,
+    "prompt": "The detective solved the murder before it happened.",
+    "output": "The detective solved the murder before it happened. everyone looked very thick . it taught what was jane if . fin asked annie what a moral of the words was right and tricks if you trust me and be quiet . bee smiled and agreed . mama smiled at him and said if she had an idea . she flew away with billy's arms and completed a measure . after that molly was a treasure master and realized that the beautiful moment in vacation sure when she used"
+  },
+  {
+    "model": "rnn",
+    "strategy": "temperature",
+    "temperature": 1.2,
+    "top_k": 10,
+    "seed": 45,
+    "prompt": "One morning, everyone in the village forgot the previous day.",
+    "output": "One morning, everyone in the village forgot the previous day. suddenly , the sun went down and spun off . sam grinned warmly in the mud and was afraid . suddenly , tom heard a voice . it sounded . jimmy was excited . he quickly ran back at the edge of the clock tree with sawing . his mom came into many cake . he couldn't wait to go do tomorrow . he would ask and everything to take his nap and punish his mom . he thought about"
+  },
+  {
+    "model": "rnn",
+    "strategy": "temperature",
+    "temperature": 1.2,
+    "top_k": 10,
+    "seed": 46,
+    "prompt": "A letter arrived from exactly one hundred years in the future.",
+    "output": "A letter arrived from exactly one hundred years in the future. daisy wasn't a dog , but her neighbor said hear taking out that rough happen . lily struggled down the down with a stern bottle and wanted to climb in a pan . when they got up on the bench , lily's mother agreed and the cauliflower got in the <unk> vase together . the fire was very good at baking for the children of love . so , and they carefully became a friendly vacation game . maria was"
+  },
+  {
+    "model": "rnn",
+    "strategy": "temperature",
+    "temperature": 1.2,
+    "top_k": 10,
+    "seed": 47,
+    "prompt": "A shy robot wanted to make one human friend.",
+    "output": "A shy robot wanted to make one human friend. the squirrel packed made her original ring and frog to become <unk> for them . \" mmm , fred ! that's so cool ! where see you weigh , enjoy the scale ! \""
+  },
+  {
+    "model": "rnn",
+    "strategy": "temperature",
+    "temperature": 1.2,
+    "top_k": 10,
+    "seed": 48,
+    "prompt": "The little fox had to solve a problem before sunset.",
+    "output": "The little fox had to solve a problem before sunset. he had set the bigger shirt but fork felt sad ; he spoke into action , happy that he barked and talking . one day when he did , a little boy named timmy came to help him shake the instruments . sam was so excited ! he decided to stay nearby castle with a park . suddenly , he spotted an oyster nearby . he didn't wait to get ready free , in half and tried to jump ."
+  }
+]

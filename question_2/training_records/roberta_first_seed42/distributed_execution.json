@@ -1,0 +1,41 @@
+{
+  "strategy": "DistributedDataParallel",
+  "world_size": 2,
+  "per_gpu_microbatch": 8,
+  "global_microbatch": 16,
+  "accumulation_steps": 2,
+  "effective_batch_size": 32,
+  "sampler": "original global seed/epoch permutation, disjoint contiguous rank slices",
+  "gradient_reduction": "world_size * local summed loss / actual global accumulation-group samples",
+  "backend": "nccl",
+  "devices": [
+    {
+      "rank": 0,
+      "device": "cuda:0",
+      "pid": 121,
+      "name": "Tesla T4",
+      "all_reduce_checksum": 3.0
+    },
+    {
+      "rank": 1,
+      "device": "cuda:1",
+      "pid": 122,
+      "name": "Tesla T4",
+      "all_reduce_checksum": 3.0
+    }
+  ],
+  "gradient_probe": {
+    "status": "PASS",
+    "maximum_gradient_error": 2.9802322387695312e-08,
+    "samples": 22,
+    "global_microbatch": 6,
+    "accumulation_steps": 2,
+    "partial_final_group_tested": true,
+    "real_training_data_used": false
+  },
+  "dropout_seeds": [
+    42,
+    43
+  ],
+  "validation": "rank0, all official validation rows, original evaluation batch size"
+}

@@ -1,0 +1,65 @@
+[
+  {
+    "model": "lstm",
+    "strategy": "temperature",
+    "temperature": 0.8,
+    "top_k": 10,
+    "seed": 42,
+    "prompt": "One night, a student found an exam paper with tomorrow's answers.",
+    "output": "One night, a student found an exam paper with tomorrow's answers. the little girl wanted to take the cloth on the table and see what it was . she asked , \" what's wrong ? \" the old man smiled and said , \" you are a banana . i'm not a motor . you are a good girl . that's why it's a good horse to play with . \" the lady smiled and said , \" you are a graceful mouse . i can help you find his way"
+  },
+  {
+    "model": "lstm",
+    "strategy": "temperature",
+    "temperature": 0.8,
+    "top_k": 10,
+    "seed": 42,
+    "prompt": "Mia opened the old box and discovered something nobody had seen before.",
+    "output": "Mia opened the old box and discovered something nobody had seen before. she asked her mom if she could make a net . she said yes and started to draw . she smiled and said , \" i love you ! \" mama smiled and smiled . she smiled and smiled . she gave her a big hug and hugged him tight . she ran around in the garden , feeling happy and peaceful . she felt like she could sign her dad and her new friends . she put away her"
+  },
+  {
+    "model": "lstm",
+    "strategy": "temperature",
+    "temperature": 0.8,
+    "top_k": 10,
+    "seed": 42,
+    "prompt": "The detective solved the murder before it happened.",
+    "output": "The detective solved the murder before it happened. the engine was so excited . but when the rain was done , the shopkeeper heard a loud noise . it was a fat finish . it had become another , red apple . the flag was sad . the little boy was very happy . he took out his hands and touched it . he put on the flowers and went to the river . but when he tried to escape , he stopped at the belt . it"
+  },
+  {
+    "model": "lstm",
+    "strategy": "temperature",
+    "temperature": 0.8,
+    "top_k": 10,
+    "seed": 42,
+    "prompt": "One morning, everyone in the village forgot the previous day.",
+    "output": "One morning, everyone in the village forgot the previous day. they stopped at each other and saw a big kid . they said , \" what is that they use ? \" the mother said , \" let's go get a very special room ! \" because they were just three years old and said , \" let's show them a network ! \" no one left the living room , and it was a delicious snack . but when suddenly , something wonderful happened and the rain stopped ."
+  },
+  {
+    "model": "lstm",
+    "strategy": "temperature",
+    "temperature": 0.8,
+    "top_k": 10,
+    "seed": 42,
+    "prompt": "A letter arrived from exactly one hundred years in the future.",
+    "output": "A letter arrived from exactly one hundred years in the future. it wanted to stay and explore the world around the park . there were lots of trees and plants . the sun was shining and the sky was full of bright colors in the sky . it was so high that they started to climb on the sea . eventually , the blue tube began to feel better and happy . every day , the sun shone in the sky . when the sun was down , the wind started"
+  },
+  {
+    "model": "lstm",
+    "strategy": "temperature",
+    "temperature": 0.8,
+    "top_k": 10,
+    "seed": 42,
+    "prompt": "A shy robot wanted to make one human friend.",
+    "output": "A shy robot wanted to make one human friend. so she asked her mom for help . she put on her plate and started to count the earth . \" look , daddy ! i fell asleep ! \" her mom answered . \" that's too much fun ! \" the man said , \" you can't eat the candy ! \" . ben thought about it and wanted to go . she said , \" i'm sorry , little girl . i love you too . \" the"
+  },
+  {
+    "model": "lstm",
+    "strategy": "temperature",
+    "temperature": 0.8,
+    "top_k": 10,
+    "seed": 42,
+    "prompt": "The little fox had to solve a problem before sunset.",
+    "output": "The little fox had to solve a problem before sunset. it was very old and cold . the farmer saw the furry creature and said , \" hello , little child . i can help you ! now . \" the little girl was so happy to have a new friend . she thanked the fairy and said goodbye to her friends and waved goodbye to the other children . the girl was so happy to have her friends . she stopped and waved and headed off to the ground"
+  }
+]

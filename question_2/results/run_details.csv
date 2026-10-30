@@ -1,0 +1,7 @@
+model,seed,parameters,gpu,precision,best_epoch,epochs_completed,training_hours,peak_gpu_memory_gib,strategy,world_size,per_device_microbatch,global_microbatch,accumulation_steps,effective_batch_size,source_hash
+baseline,42,3768497,Tesla T4,torch.float32,5,7,0.2179478536355556,0.3182706832885742,single_process,1,128,128,1,128,5c284bdea9b164be9eb13cfb897f1f8e56cb8ca19bb3d0342ca80362a9d42144
+baseline,123,3768497,Tesla T4,torch.float32,4,6,0.18977865632888893,0.3172879219055176,single_process,1,128,128,1,128,5c284bdea9b164be9eb13cfb897f1f8e56cb8ca19bb3d0342ca80362a9d42144
+roberta_mean,42,124058885,Tesla T4,torch.bfloat16,3,3,6.436690585879723,5.187255382537842,single_process,1,16,16,2,32,5c284bdea9b164be9eb13cfb897f1f8e56cb8ca19bb3d0342ca80362a9d42144
+roberta_mean,123,124058885,Tesla T4,torch.bfloat16,2,3,3.549093012887222,4.142244338989258,DistributedDataParallel,2,8,16,2,32,67e589cea6d381f0ff3b7d2adc13e46065488925b2e22992f2300371ecf757e2
+roberta_first,42,124058885,Tesla T4,torch.bfloat16,3,3,3.559024232210833,4.138945579528809,DistributedDataParallel,2,8,16,2,32,67e589cea6d381f0ff3b7d2adc13e46065488925b2e22992f2300371ecf757e2
+roberta_first,123,124058885,Tesla T4,torch.bfloat16,2,3,3.4273296247725002,4.142244338989258,DistributedDataParallel,2,8,16,2,32,67e589cea6d381f0ff3b7d2adc13e46065488925b2e22992f2300371ecf757e2

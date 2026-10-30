@@ -1,0 +1,169 @@
+{
+  "validation_indices": [
+    0,
+    1,
+    2,
+    100,
+    500,
+    1000
+  ],
+  "validation_ids": [
+    "a4942dd663020ca54575471657a0af38d82897d6",
+    "4157bc4da185971e2742f349d69a037343bc0d95",
+    "60736693e3b1b32d14337a317190c6606e879a85",
+    "3f30ddc2b0b2dfaa6455dc53c06858354dd552be",
+    "abdc13d8ae6edfa70655a263650af44d9db2cd20",
+    "e80c6f606f67caa2719c37fbb60133a73f90e88f"
+  ],
+  "unique_sources": 6,
+  "source_token_hashes": [
+    "dbdc0ef4c0417d0ccd99b8eda05a6308bd979ad4fc9b64f8debef13c14d406fa",
+    "0dde9f58e8e4fc33b409fd9cc914495da196d27ca6ed1a47f209c80d9d59c5b9",
+    "0f62141e8a51a84c65098ffce7423f6555a1330c4f67a67fa575aef1ea3d1a40",
+    "54d780df69c9002ec965c36cee8d0a1ca9a8ee622706798562b9a99e3091f070",
+    "c389dff64ed30844f66ace65ada9263136b25ca32558b29871e72e972854d9fa",
+    "4c553e2f9f053f22bb4b75169a1d3366a3b7c400e793bdd895f17c521bc68adc"
+  ],
+  "source_lengths": [
+    400,
+    400,
+    400,
+    400,
+    400,
+    400
+  ],
+  "trained_encoder_layers": [
+    {
+      "pairwise_rms_vs_first": [
+        0.8747153282165527,
+        0.8682431578636169,
+        0.8620615005493164,
+        0.864447832107544,
+        0.8594802618026733
+      ],
+      "token_std": 0.6038129329681396
+    },
+    {
+      "pairwise_rms_vs_first": [
+        0.0013057637261226773,
+        0.001290799817070365,
+        0.0012893989915028214,
+        0.001295834663324058,
+        0.0012803018325939775
+      ],
+      "token_std": 0.000830634671729058
+    }
+  ],
+  "trained_memory_rms_vs_first": [
+    0.0013057637261226773,
+    0.001290799817070365,
+    0.0012893989915028214,
+    0.001295834663324058,
+    0.0012803018325939775
+  ],
+  "fresh_memory_rms_vs_first": [
+    1.3727149963378906,
+    1.3737232685089111,
+    1.3607290983200073,
+    1.3713955879211426,
+    1.3623393774032593
+  ],
+  "trained_first_logits_rms_vs_first": [
+    1.66900317708496e-05,
+    2.6128338504349813e-05,
+    2.0698129446827807e-05,
+    4.785016426467337e-05,
+    2.4953311367426068e-05
+  ],
+  "fresh_first_logits_rms_vs_first": [
+    0.032227396965026855,
+    0.03767701983451843,
+    0.03287290036678314,
+    0.03695014864206314,
+    0.02869148924946785
+  ],
+  "memory_ablation": {
+    "correct": {
+      "loss": 6.0425920486450195,
+      "max_logit_change": 0.0
+    },
+    "shuffled": {
+      "loss": 6.042590618133545,
+      "max_logit_change": 0.0010519027709960938
+    },
+    "zero": {
+      "loss": 6.037447929382324,
+      "max_logit_change": 1.3026113510131836
+    }
+  },
+  "cached_equals_uncached": true,
+  "max_cached_vs_full_logit_error": 5.7220458984375e-06,
+  "individual_matches_batch": [
+    true,
+    true,
+    true,
+    true,
+    true,
+    true
+  ],
+  "cross_memory_and_mask_checked_steps": [
+    74,
+    74
+  ],
+  "real_padding_check": true,
+  "attention_min": 0.002474806737154722,
+  "attention_max": 0.002527023898437619,
+  "gradient_l2": {
+    "embedding": 0.09588978528305744,
+    "encoder": 0.04787620382594344,
+    "decoder": 0.7734505464445658,
+    "output": 0.5089711462473332
+  },
+  "validation_loss_recomputed": 6.020055199688513,
+  "checkpoint_validation_loss": 6.020055199688513,
+  "unique_validation_predictions": 1,
+  "validation_predictions": [
+    "new: \"i's \"p\" obama's \"pia\" obama's \"fallic\" \"pia\" \"fall. barack obama's \"fall. barack obama's \"fall. barack obama's \"fall. barack obama's \"fall. barack obama's \"fallic\"",
+    "new: \"i's \"p\" obama's \"pia\" obama's \"fallic\" \"pia\" \"fall. barack obama's \"fall. barack obama's \"fall. barack obama's \"fall. barack obama's \"fall. barack obama's \"fallic\"",
+    "new: \"i's \"p\" obama's \"pia\" obama's \"fallic\" \"pia\" \"fall. barack obama's \"fall. barack obama's \"fall. barack obama's \"fall. barack obama's \"fall. barack obama's \"fallic\"",
+    "new: \"i's \"p\" obama's \"pia\" obama's \"fallic\" \"pia\" \"fall. barack obama's \"fall. barack obama's \"fall. barack obama's \"fall. barack obama's \"fall. barack obama's \"fallic\"",
+    "new: \"i's \"p\" obama's \"pia\" obama's \"fallic\" \"pia\" \"fall. barack obama's \"fall. barack obama's \"fall. barack obama's \"fall. barack obama's \"fall. barack obama's \"fallic\"",
+    "new: \"i's \"p\" obama's \"pia\" obama's \"fallic\" \"pia\" \"fall. barack obama's \"fall. barack obama's \"fall. barack obama's \"fall. barack obama's \"fall. barack obama's \"fallic\""
+  ],
+  "tokenizer_rebuild_identical_pieces_and_scores": true,
+  "tokenizer_corpus_hash": "8d30802f610e3d38ba99dc09e9c16e88f15ddb8fa0eb05af0e16e2b6afddeb84",
+  "tokenizer_sha256": "448b90a9bf6396cfd49e9f180fcb1ebe60f396ac88a5d9e57bafc63740dc5fa9",
+  "checkpoint_sha256": "541f62a36c1b56de82bab1b13b128047587dc7c39bb645a99eda459103fec506",
+  "schedule": [
+    {
+      "step": 1,
+      "lr": 4.419417382415922e-05
+    },
+    {
+      "step": 128,
+      "lr": 0.00565685424949238
+    },
+    {
+      "step": 200,
+      "lr": 0.008838834764831844
+    },
+    {
+      "step": 256,
+      "lr": 0.0078125
+    },
+    {
+      "step": 384,
+      "lr": 0.00637887953849786
+    },
+    {
+      "step": 512,
+      "lr": 0.005524271728019903
+    },
+    {
+      "step": 640,
+      "lr": 0.004941058844013093
+    }
+  ],
+  "model_updated": false,
+  "test_data_used": false
+}

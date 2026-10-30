@@ -1,0 +1,65 @@
+[
+  {
+    "model": "lstm",
+    "strategy": "temperature",
+    "temperature": 1.2,
+    "top_k": 10,
+    "seed": 42,
+    "prompt": "One night, a student found an exam paper with tomorrow's answers.",
+    "output": "One night, a student found an exam paper with tomorrow's answers. daisy took a deep breath and handed a big tower , when god was sure the doll . one , holly started to feel better place . finally she saw a nice man on the stove . it was red and motor every cats . max loved and fit at the sight every day . but sadly healed , billy was time to tell alone . but then , tom's owner got a lollipop to him . he thought it"
+  },
+  {
+    "model": "lstm",
+    "strategy": "temperature",
+    "temperature": 1.2,
+    "top_k": 10,
+    "seed": 43,
+    "prompt": "Mia opened the old box and discovered something nobody had seen before.",
+    "output": "Mia opened the old box and discovered something nobody had seen before. she looked cooler inside and grabbing an envelope aside . she smiled . mary € ™ s asked frog's mother , € jenna € ™ s office . so they go to the store and drove pulled . they were in the garage . a sudden , daisy saw a small cloud that dove in a stall . grandmother thanked the stranger her skin . it was the wet taste of unusual one picture for pixie sarah away . from"
+  },
+  {
+    "model": "lstm",
+    "strategy": "temperature",
+    "temperature": 1.2,
+    "top_k": 10,
+    "seed": 44,
+    "prompt": "The detective solved the murder before it happened.",
+    "output": "The detective solved the murder before it happened. everyone looked very thick . it waited what was jane standing in the blue - <unk> sparkling coming water . the was basketball and charlie himself to trust a chubby finger . turt chose an automobile with a hot bug passed and they couldn't fly . they ran around <unk> , laughing and playing tag . finally they found a stamp , that was allergic a treasure missing and darker . they stopped and stared until they heard a voice"
+  },
+  {
+    "model": "lstm",
+    "strategy": "temperature",
+    "temperature": 1.2,
+    "top_k": 10,
+    "seed": 45,
+    "prompt": "One morning, everyone in the village forgot the previous day.",
+    "output": "One morning, everyone in the village forgot the previous day. suddenly , the sun and the other spun sausage began to pick dinner . john saw his neighbor puzzled . suddenly , tom heard a whisper coming from a . jimmy was walking towards the wardrobe . gary didn't know what to do . john was so disappointed , he couldn't reach at the patch . he said : \" do tomorrow . he can't use and everything to take his nap and punish yourself \" . jack's hook nodded"
+  },
+  {
+    "model": "lstm",
+    "strategy": "temperature",
+    "temperature": 1.2,
+    "top_k": 10,
+    "seed": 46,
+    "prompt": "A letter arrived from exactly one hundred years in the future.",
+    "output": "A letter arrived from exactly one hundred years in the future. daisy was a dog , but she never saw hear taking out that rough happen . she struggled down one down the true , trying to plant a gift in a pan . when she got there , she ended up racing and lower until the cauliflower got faster . she waited , loudly . she put on her spinning slowly drifted and said goodbye to the end of the day of it forever !"
+  },
+  {
+    "model": "lstm",
+    "strategy": "temperature",
+    "temperature": 1.2,
+    "top_k": 10,
+    "seed": 47,
+    "prompt": "A shy robot wanted to make one human friend.",
+    "output": "A shy robot wanted to make one human friend. but worry lila made her original shapes even frog . he saw a huge birdcage ate shiny cake : many jewelry on the traffic . so the whole seat began to fit animals . jasmine ordered some strawberries and put them in the cupboard . the parade friend was very happy to have found the toy raft . the family was happy that the family was always safe to the clay ornament for something sorted , jason . the penguin"
+  },
+  {
+    "model": "lstm",
+    "strategy": "temperature",
+    "temperature": 1.2,
+    "top_k": 10,
+    "seed": 48,
+    "prompt": "The little fox had to solve a problem before sunset.",
+    "output": "The little fox had to solve a problem before sunset. he had taken the bigger toys but fluffy felt like to fit in his suitcase , so he tried and tried to put out the rich pile ! so , he opened it at but just kept making strange noises . suddenly , it pulled out two challenge at him and stopped moving . he took it and pulled up the gun . he woke up high and juicy in between free feet in half and tried to add the"
+  }
+]

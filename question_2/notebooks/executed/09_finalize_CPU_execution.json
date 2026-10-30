@@ -1,0 +1,28 @@
+{
+  "identity": {
+    "phase": "finalize",
+    "config_sha256": "8ff10cb8622d335017512069fd78eb383fbf3c50cc5dda48139c5960a0493bcd",
+    "source_hash": "67e589cea6d381f0ff3b7d2adc13e46065488925b2e22992f2300371ecf757e2"
+  },
+  "status": "COMPLETE",
+  "archive": "C:\\Users\\arnav\\Desktop\\College Study Material\\my sem 7\\NLP\\NLP Assignment 2\\question_2\\artifacts\\local_finalization_20261030\\finalize\\Q2_finalize_results.zip",
+  "inspection": {
+    "status": "PASS",
+    "phase": "finalize",
+    "config_sha256": "8ff10cb8622d335017512069fd78eb383fbf3c50cc5dda48139c5960a0493bcd",
+    "source_hash": "67e589cea6d381f0ff3b7d2adc13e46065488925b2e22992f2300371ecf757e2",
+    "split_fingerprint": "0333c509283ff8af9835ef62b67b720d56029075e424d58e3f3cc31daab01b7c",
+    "prepared_manifest_digest": "e5123464bfce7af69f7f42ba50fb569dbcc119de710eee1e184d701ee8ab26fd",
+    "files_verified": 229,
+    "experiments": [
+      "baseline_seed42",
+      "baseline_seed123",
+      "roberta_mean_seed42",
+      "roberta_mean_seed123",
+      "roberta_first_seed42",
+      "roberta_first_seed123"
+    ],
+    "legacy_prerequisite_compatible": false,
+    "performance_target": "No numerical target in rubric; completion is not a claim of model quality"
+  }
+}

@@ -1,0 +1,165 @@
+2026-10-28 17:34:27,594 | INFO | START model=baseline seed=42 device=cuda precision=None full training data
+2026-10-28 17:34:27,634 | INFO | GPU=Tesla T4; visible GPUs=2; this process uses one GPU
+2026-10-28 17:34:28,165 | INFO | [progress] samples train=200000 validation=5000 | max epochs=8 | batch=128 accumulation=1
+2026-10-28 17:34:29,402 | INFO | Embedding layer FROZEN (first epoch)
+2026-10-28 17:34:37,961 | INFO | epoch=1 batch=100/1563 loss=1.4018 train F1=0.3541 lr=0.001 elapsed=0.1 min peak GPU=0.28 GiB
+2026-10-28 17:34:44,895 | INFO | epoch=1 batch=200/1563 loss=1.3292 train F1=0.3950 lr=0.001 elapsed=0.3 min peak GPU=0.28 GiB
+2026-10-28 17:34:51,830 | INFO | epoch=1 batch=300/1563 loss=1.2888 train F1=0.4167 lr=0.001 elapsed=0.4 min peak GPU=0.28 GiB
+2026-10-28 17:34:58,761 | INFO | epoch=1 batch=400/1563 loss=1.2621 train F1=0.4313 lr=0.001 elapsed=0.5 min peak GPU=0.28 GiB
+2026-10-28 17:35:05,738 | INFO | Recovery saved: epoch=1 next batch=500
+2026-10-28 17:35:05,739 | INFO | epoch=1 batch=500/1563 loss=1.2406 train F1=0.4434 lr=0.001 elapsed=0.6 min peak GPU=0.28 GiB
+2026-10-28 17:35:12,643 | INFO | epoch=1 batch=600/1563 loss=1.2223 train F1=0.4523 lr=0.001 elapsed=0.7 min peak GPU=0.28 GiB
+2026-10-28 17:35:19,519 | INFO | epoch=1 batch=700/1563 loss=1.2007 train F1=0.4632 lr=0.001 elapsed=0.8 min peak GPU=0.28 GiB
+2026-10-28 17:35:26,404 | INFO | epoch=1 batch=800/1563 loss=1.1833 train F1=0.4715 lr=0.001 elapsed=1.0 min peak GPU=0.28 GiB
+2026-10-28 17:35:33,418 | INFO | epoch=1 batch=900/1563 loss=1.1697 train F1=0.4779 lr=0.001 elapsed=1.1 min peak GPU=0.28 GiB
+2026-10-28 17:35:40,488 | INFO | Recovery saved: epoch=1 next batch=1000
+2026-10-28 17:35:40,489 | INFO | epoch=1 batch=1000/1563 loss=1.1555 train F1=0.4839 lr=0.001 elapsed=1.2 min peak GPU=0.28 GiB
+2026-10-28 17:35:47,371 | INFO | epoch=1 batch=1100/1563 loss=1.1448 train F1=0.4893 lr=0.001 elapsed=1.3 min peak GPU=0.28 GiB
+2026-10-28 17:35:54,259 | INFO | epoch=1 batch=1200/1563 loss=1.1339 train F1=0.4946 lr=0.001 elapsed=1.4 min peak GPU=0.28 GiB
+2026-10-28 17:36:01,388 | INFO | epoch=1 batch=1300/1563 loss=1.1238 train F1=0.4995 lr=0.001 elapsed=1.5 min peak GPU=0.28 GiB
+2026-10-28 17:36:08,279 | INFO | epoch=1 batch=1400/1563 loss=1.1148 train F1=0.5042 lr=0.001 elapsed=1.6 min peak GPU=0.28 GiB
+2026-10-28 17:36:15,308 | INFO | Recovery saved: epoch=1 next batch=1500
+2026-10-28 17:36:15,309 | INFO | epoch=1 batch=1500/1563 loss=1.1067 train F1=0.5082 lr=0.001 elapsed=1.8 min peak GPU=0.28 GiB
+2026-10-28 17:36:19,726 | INFO | epoch=1 batch=1563/1563 loss=1.1019 train F1=0.5103 lr=0.001 elapsed=1.8 min peak GPU=0.28 GiB
+2026-10-28 17:36:20,293 | INFO | [progress] epoch_seconds=110.9 approximate remaining at epoch cap=12.9 min; early stopping may shorten
+2026-10-28 17:36:20,317 | INFO | EPOCH 1 COMPLETE | train loss=1.1019 F1=0.5103 | val loss=0.9369 F1=0.5823 | best epoch=1 | patience=0/2
+2026-10-28 17:36:20,345 | INFO | Recovery saved: epoch=2 next batch=0
+2026-10-28 17:36:20,345 | INFO | Embedding layer UNFROZEN
+2026-10-28 17:36:27,765 | INFO | epoch=2 batch=100/1563 loss=0.9591 train F1=0.5740 lr=0.001 elapsed=2.0 min peak GPU=0.31 GiB
+2026-10-28 17:36:34,969 | INFO | epoch=2 batch=200/1563 loss=0.9546 train F1=0.5786 lr=0.001 elapsed=2.1 min peak GPU=0.31 GiB
+2026-10-28 17:36:42,070 | INFO | epoch=2 batch=300/1563 loss=0.9453 train F1=0.5816 lr=0.001 elapsed=2.2 min peak GPU=0.31 GiB
+2026-10-28 17:36:49,140 | INFO | epoch=2 batch=400/1563 loss=0.9373 train F1=0.5859 lr=0.001 elapsed=2.3 min peak GPU=0.31 GiB
+2026-10-28 17:36:51,817 | INFO | Recovery saved: epoch=2 next batch=437
+2026-10-28 17:36:56,281 | INFO | epoch=2 batch=500/1563 loss=0.9307 train F1=0.5892 lr=0.001 elapsed=2.4 min peak GPU=0.31 GiB
+2026-10-28 17:37:03,548 | INFO | epoch=2 batch=600/1563 loss=0.9274 train F1=0.5904 lr=0.001 elapsed=2.6 min peak GPU=0.31 GiB
+2026-10-28 17:37:10,814 | INFO | epoch=2 batch=700/1563 loss=0.9236 train F1=0.5917 lr=0.001 elapsed=2.7 min peak GPU=0.31 GiB
+2026-10-28 17:37:18,071 | INFO | epoch=2 batch=800/1563 loss=0.9200 train F1=0.5935 lr=0.001 elapsed=2.8 min peak GPU=0.31 GiB
+2026-10-28 17:37:25,165 | INFO | epoch=2 batch=900/1563 loss=0.9161 train F1=0.5959 lr=0.001 elapsed=2.9 min peak GPU=0.31 GiB
+2026-10-28 17:37:27,812 | INFO | Recovery saved: epoch=2 next batch=937
+2026-10-28 17:37:32,405 | INFO | epoch=2 batch=1000/1563 loss=0.9142 train F1=0.5964 lr=0.001 elapsed=3.1 min peak GPU=0.31 GiB
+2026-10-28 17:37:39,601 | INFO | epoch=2 batch=1100/1563 loss=0.9113 train F1=0.5980 lr=0.001 elapsed=3.2 min peak GPU=0.31 GiB
+2026-10-28 17:37:46,877 | INFO | epoch=2 batch=1200/1563 loss=0.9092 train F1=0.5989 lr=0.001 elapsed=3.3 min peak GPU=0.31 GiB
+2026-10-28 17:37:54,100 | INFO | epoch=2 batch=1300/1563 loss=0.9061 train F1=0.6005 lr=0.001 elapsed=3.4 min peak GPU=0.31 GiB
+2026-10-28 17:38:01,253 | INFO | epoch=2 batch=1400/1563 loss=0.9040 train F1=0.6014 lr=0.001 elapsed=3.5 min peak GPU=0.31 GiB
+2026-10-28 17:38:03,945 | INFO | Recovery saved: epoch=2 next batch=1437
+2026-10-28 17:38:08,545 | INFO | epoch=2 batch=1500/1563 loss=0.9013 train F1=0.6024 lr=0.001 elapsed=3.7 min peak GPU=0.31 GiB
+2026-10-28 17:38:13,072 | INFO | epoch=2 batch=1563/1563 loss=0.8999 train F1=0.6032 lr=0.001 elapsed=3.7 min peak GPU=0.31 GiB
+2026-10-28 17:38:13,664 | INFO | [progress] epoch_seconds=113.3 approximate remaining at epoch cap=11.3 min; early stopping may shorten
+2026-10-28 17:38:13,691 | INFO | EPOCH 2 COMPLETE | train loss=0.8999 F1=0.6032 | val loss=0.8586 F1=0.6186 | best epoch=2 | patience=0/2
+2026-10-28 17:38:13,747 | INFO | Recovery saved: epoch=3 next batch=0
+2026-10-28 17:38:13,747 | INFO | Embedding layer UNFROZEN
+2026-10-28 17:38:21,189 | INFO | epoch=3 batch=100/1563 loss=0.8470 train F1=0.6248 lr=0.001 elapsed=3.9 min peak GPU=0.31 GiB
+2026-10-28 17:38:28,324 | INFO | epoch=3 batch=200/1563 loss=0.8501 train F1=0.6259 lr=0.001 elapsed=4.0 min peak GPU=0.31 GiB
+2026-10-28 17:38:35,404 | INFO | epoch=3 batch=300/1563 loss=0.8470 train F1=0.6264 lr=0.001 elapsed=4.1 min peak GPU=0.31 GiB
+2026-10-28 17:38:40,698 | INFO | Recovery saved: epoch=3 next batch=374
+2026-10-28 17:38:42,554 | INFO | epoch=3 batch=400/1563 loss=0.8427 train F1=0.6281 lr=0.001 elapsed=4.2 min peak GPU=0.31 GiB
+2026-10-28 17:38:49,588 | INFO | epoch=3 batch=500/1563 loss=0.8438 train F1=0.6281 lr=0.001 elapsed=4.3 min peak GPU=0.31 GiB
+2026-10-28 17:38:56,641 | INFO | epoch=3 batch=600/1563 loss=0.8429 train F1=0.6285 lr=0.001 elapsed=4.5 min peak GPU=0.31 GiB
+2026-10-28 17:39:03,698 | INFO | epoch=3 batch=700/1563 loss=0.8425 train F1=0.6284 lr=0.001 elapsed=4.6 min peak GPU=0.31 GiB
+2026-10-28 17:39:10,741 | INFO | epoch=3 batch=800/1563 loss=0.8408 train F1=0.6298 lr=0.001 elapsed=4.7 min peak GPU=0.31 GiB
+2026-10-28 17:39:16,060 | INFO | Recovery saved: epoch=3 next batch=874
+2026-10-28 17:39:17,962 | INFO | epoch=3 batch=900/1563 loss=0.8413 train F1=0.6295 lr=0.001 elapsed=4.8 min peak GPU=0.31 GiB
+2026-10-28 17:39:25,003 | INFO | epoch=3 batch=1000/1563 loss=0.8395 train F1=0.6306 lr=0.001 elapsed=4.9 min peak GPU=0.31 GiB
+2026-10-28 17:39:32,062 | INFO | epoch=3 batch=1100/1563 loss=0.8393 train F1=0.6311 lr=0.001 elapsed=5.0 min peak GPU=0.31 GiB
+2026-10-28 17:39:39,305 | INFO | epoch=3 batch=1200/1563 loss=0.8382 train F1=0.6316 lr=0.001 elapsed=5.2 min peak GPU=0.31 GiB
+2026-10-28 17:39:46,491 | INFO | epoch=3 batch=1300/1563 loss=0.8370 train F1=0.6323 lr=0.001 elapsed=5.3 min peak GPU=0.31 GiB
+2026-10-28 17:39:51,843 | INFO | Recovery saved: epoch=3 next batch=1374
+2026-10-28 17:39:53,753 | INFO | epoch=3 batch=1400/1563 loss=0.8364 train F1=0.6327 lr=0.001 elapsed=5.4 min peak GPU=0.31 GiB
+2026-10-28 17:40:00,948 | INFO | epoch=3 batch=1500/1563 loss=0.8360 train F1=0.6328 lr=0.001 elapsed=5.5 min peak GPU=0.31 GiB
+2026-10-28 17:40:05,456 | INFO | epoch=3 batch=1563/1563 loss=0.8360 train F1=0.6327 lr=0.001 elapsed=5.6 min peak GPU=0.31 GiB
+2026-10-28 17:40:06,012 | INFO | [progress] epoch_seconds=112.3 approximate remaining at epoch cap=9.4 min; early stopping may shorten
+2026-10-28 17:40:06,036 | INFO | EPOCH 3 COMPLETE | train loss=0.8360 F1=0.6327 | val loss=0.8469 F1=0.6309 | best epoch=3 | patience=0/2
+2026-10-28 17:40:06,087 | INFO | Recovery saved: epoch=4 next batch=0
+2026-10-28 17:40:06,087 | INFO | Embedding layer UNFROZEN
+2026-10-28 17:40:13,441 | INFO | epoch=4 batch=100/1563 loss=0.7985 train F1=0.6563 lr=0.001 elapsed=5.7 min peak GPU=0.31 GiB
+2026-10-28 17:40:20,638 | INFO | epoch=4 batch=200/1563 loss=0.8002 train F1=0.6555 lr=0.001 elapsed=5.9 min peak GPU=0.31 GiB
+2026-10-28 17:40:27,718 | INFO | epoch=4 batch=300/1563 loss=0.8020 train F1=0.6538 lr=0.001 elapsed=6.0 min peak GPU=0.31 GiB
+2026-10-28 17:40:28,581 | INFO | Recovery saved: epoch=4 next batch=311
+2026-10-28 17:40:34,881 | INFO | epoch=4 batch=400/1563 loss=0.7964 train F1=0.6556 lr=0.001 elapsed=6.1 min peak GPU=0.31 GiB
+2026-10-28 17:40:42,184 | INFO | epoch=4 batch=500/1563 loss=0.7981 train F1=0.6551 lr=0.001 elapsed=6.2 min peak GPU=0.31 GiB
+2026-10-28 17:40:49,174 | INFO | epoch=4 batch=600/1563 loss=0.7994 train F1=0.6529 lr=0.001 elapsed=6.3 min peak GPU=0.31 GiB
+2026-10-28 17:40:56,317 | INFO | epoch=4 batch=700/1563 loss=0.7982 train F1=0.6533 lr=0.001 elapsed=6.4 min peak GPU=0.31 GiB
+2026-10-28 17:41:03,431 | INFO | epoch=4 batch=800/1563 loss=0.7981 train F1=0.6531 lr=0.001 elapsed=6.6 min peak GPU=0.31 GiB
+2026-10-28 17:41:04,250 | INFO | Recovery saved: epoch=4 next batch=811
+2026-10-28 17:41:10,590 | INFO | epoch=4 batch=900/1563 loss=0.7974 train F1=0.6533 lr=0.001 elapsed=6.7 min peak GPU=0.31 GiB
+2026-10-28 17:41:17,748 | INFO | epoch=4 batch=1000/1563 loss=0.7973 train F1=0.6533 lr=0.001 elapsed=6.8 min peak GPU=0.31 GiB
+2026-10-28 17:41:24,817 | INFO | epoch=4 batch=1100/1563 loss=0.7982 train F1=0.6523 lr=0.001 elapsed=6.9 min peak GPU=0.31 GiB
+2026-10-28 17:41:31,997 | INFO | epoch=4 batch=1200/1563 loss=0.7994 train F1=0.6518 lr=0.001 elapsed=7.0 min peak GPU=0.31 GiB
+2026-10-28 17:41:39,279 | INFO | epoch=4 batch=1300/1563 loss=0.7997 train F1=0.6520 lr=0.001 elapsed=7.2 min peak GPU=0.31 GiB
+2026-10-28 17:41:40,137 | INFO | Recovery saved: epoch=4 next batch=1311
+2026-10-28 17:41:46,619 | INFO | epoch=4 batch=1400/1563 loss=0.7992 train F1=0.6522 lr=0.001 elapsed=7.3 min peak GPU=0.31 GiB
+2026-10-28 17:41:53,826 | INFO | epoch=4 batch=1500/1563 loss=0.7981 train F1=0.6528 lr=0.001 elapsed=7.4 min peak GPU=0.31 GiB
+2026-10-28 17:41:58,391 | INFO | epoch=4 batch=1563/1563 loss=0.7983 train F1=0.6527 lr=0.001 elapsed=7.5 min peak GPU=0.31 GiB
+2026-10-28 17:41:58,955 | INFO | [progress] epoch_seconds=112.9 approximate remaining at epoch cap=7.5 min; early stopping may shorten
+2026-10-28 17:41:58,956 | INFO | EPOCH 4 COMPLETE | train loss=0.7983 F1=0.6527 | val loss=0.8509 F1=0.6204 | best epoch=3 | patience=1/2
+2026-10-28 17:41:59,018 | INFO | Recovery saved: epoch=5 next batch=0
+2026-10-28 17:41:59,018 | INFO | Embedding layer UNFROZEN
+2026-10-28 17:42:06,466 | INFO | epoch=5 batch=100/1563 loss=0.7601 train F1=0.6680 lr=0.001 elapsed=7.6 min peak GPU=0.31 GiB
+2026-10-28 17:42:13,682 | INFO | epoch=5 batch=200/1563 loss=0.7638 train F1=0.6672 lr=0.001 elapsed=7.7 min peak GPU=0.31 GiB
+2026-10-28 17:42:17,250 | INFO | Recovery saved: epoch=5 next batch=248
+2026-10-28 17:42:20,958 | INFO | epoch=5 batch=300/1563 loss=0.7635 train F1=0.6685 lr=0.001 elapsed=7.9 min peak GPU=0.31 GiB
+2026-10-28 17:42:28,155 | INFO | epoch=5 batch=400/1563 loss=0.7642 train F1=0.6681 lr=0.001 elapsed=8.0 min peak GPU=0.31 GiB
+2026-10-28 17:42:35,366 | INFO | epoch=5 batch=500/1563 loss=0.7648 train F1=0.6680 lr=0.001 elapsed=8.1 min peak GPU=0.32 GiB
+2026-10-28 17:42:42,588 | INFO | epoch=5 batch=600/1563 loss=0.7662 train F1=0.6680 lr=0.001 elapsed=8.2 min peak GPU=0.32 GiB
+2026-10-28 17:42:49,717 | INFO | epoch=5 batch=700/1563 loss=0.7665 train F1=0.6680 lr=0.001 elapsed=8.3 min peak GPU=0.32 GiB
+2026-10-28 17:42:53,175 | INFO | Recovery saved: epoch=5 next batch=748
+2026-10-28 17:42:56,875 | INFO | epoch=5 batch=800/1563 loss=0.7672 train F1=0.6676 lr=0.001 elapsed=8.5 min peak GPU=0.32 GiB
+2026-10-28 17:43:04,051 | INFO | epoch=5 batch=900/1563 loss=0.7662 train F1=0.6678 lr=0.001 elapsed=8.6 min peak GPU=0.32 GiB
+2026-10-28 17:43:11,205 | INFO | epoch=5 batch=1000/1563 loss=0.7665 train F1=0.6683 lr=0.001 elapsed=8.7 min peak GPU=0.32 GiB
+2026-10-28 17:43:18,395 | INFO | epoch=5 batch=1100/1563 loss=0.7666 train F1=0.6683 lr=0.001 elapsed=8.8 min peak GPU=0.32 GiB
+2026-10-28 17:43:25,693 | INFO | epoch=5 batch=1200/1563 loss=0.7665 train F1=0.6685 lr=0.001 elapsed=8.9 min peak GPU=0.32 GiB
+2026-10-28 17:43:29,147 | INFO | Recovery saved: epoch=5 next batch=1248
+2026-10-28 17:43:32,795 | INFO | epoch=5 batch=1300/1563 loss=0.7667 train F1=0.6685 lr=0.001 elapsed=9.1 min peak GPU=0.32 GiB
+2026-10-28 17:43:39,915 | INFO | epoch=5 batch=1400/1563 loss=0.7658 train F1=0.6689 lr=0.001 elapsed=9.2 min peak GPU=0.32 GiB
+2026-10-28 17:43:47,130 | INFO | epoch=5 batch=1500/1563 loss=0.7663 train F1=0.6686 lr=0.001 elapsed=9.3 min peak GPU=0.32 GiB
+2026-10-28 17:43:51,555 | INFO | epoch=5 batch=1563/1563 loss=0.7661 train F1=0.6687 lr=0.001 elapsed=9.4 min peak GPU=0.32 GiB
+2026-10-28 17:43:52,086 | INFO | [progress] epoch_seconds=113.1 approximate remaining at epoch cap=5.7 min; early stopping may shorten
+2026-10-28 17:43:52,110 | INFO | EPOCH 5 COMPLETE | train loss=0.7661 F1=0.6687 | val loss=0.8487 F1=0.6318 | best epoch=5 | patience=0/2
+2026-10-28 17:43:52,170 | INFO | Recovery saved: epoch=6 next batch=0
+2026-10-28 17:43:52,170 | INFO | Embedding layer UNFROZEN
+2026-10-28 17:43:59,513 | INFO | epoch=6 batch=100/1563 loss=0.7143 train F1=0.6943 lr=0.001 elapsed=9.5 min peak GPU=0.32 GiB
+2026-10-28 17:44:05,604 | INFO | Recovery saved: epoch=6 next batch=185
+2026-10-28 17:44:06,650 | INFO | epoch=6 batch=200/1563 loss=0.7254 train F1=0.6888 lr=0.001 elapsed=9.6 min peak GPU=0.32 GiB
+2026-10-28 17:44:13,679 | INFO | epoch=6 batch=300/1563 loss=0.7308 train F1=0.6864 lr=0.001 elapsed=9.7 min peak GPU=0.32 GiB
+2026-10-28 17:44:20,689 | INFO | epoch=6 batch=400/1563 loss=0.7328 train F1=0.6858 lr=0.001 elapsed=9.9 min peak GPU=0.32 GiB
+2026-10-28 17:44:27,640 | INFO | epoch=6 batch=500/1563 loss=0.7345 train F1=0.6854 lr=0.001 elapsed=10.0 min peak GPU=0.32 GiB
+2026-10-28 17:44:34,592 | INFO | epoch=6 batch=600/1563 loss=0.7322 train F1=0.6868 lr=0.001 elapsed=10.1 min peak GPU=0.32 GiB
+2026-10-28 17:44:40,583 | INFO | Recovery saved: epoch=6 next batch=685
+2026-10-28 17:44:41,645 | INFO | epoch=6 batch=700/1563 loss=0.7338 train F1=0.6863 lr=0.001 elapsed=10.2 min peak GPU=0.32 GiB
+2026-10-28 17:44:48,630 | INFO | epoch=6 batch=800/1563 loss=0.7330 train F1=0.6862 lr=0.001 elapsed=10.3 min peak GPU=0.32 GiB
+2026-10-28 17:44:55,672 | INFO | epoch=6 batch=900/1563 loss=0.7331 train F1=0.6859 lr=0.001 elapsed=10.4 min peak GPU=0.32 GiB
+2026-10-28 17:45:02,722 | INFO | epoch=6 batch=1000/1563 loss=0.7343 train F1=0.6854 lr=0.001 elapsed=10.6 min peak GPU=0.32 GiB
+2026-10-28 17:45:09,750 | INFO | epoch=6 batch=1100/1563 loss=0.7345 train F1=0.6852 lr=0.001 elapsed=10.7 min peak GPU=0.32 GiB
+2026-10-28 17:45:15,794 | INFO | Recovery saved: epoch=6 next batch=1185
+2026-10-28 17:45:16,832 | INFO | epoch=6 batch=1200/1563 loss=0.7341 train F1=0.6850 lr=0.001 elapsed=10.8 min peak GPU=0.32 GiB
+2026-10-28 17:45:23,864 | INFO | epoch=6 batch=1300/1563 loss=0.7352 train F1=0.6848 lr=0.001 elapsed=10.9 min peak GPU=0.32 GiB
+2026-10-28 17:45:30,836 | INFO | epoch=6 batch=1400/1563 loss=0.7357 train F1=0.6846 lr=0.001 elapsed=11.0 min peak GPU=0.32 GiB
+2026-10-28 17:45:37,749 | INFO | epoch=6 batch=1500/1563 loss=0.7353 train F1=0.6844 lr=0.001 elapsed=11.1 min peak GPU=0.32 GiB
+2026-10-28 17:45:42,101 | INFO | epoch=6 batch=1563/1563 loss=0.7356 train F1=0.6843 lr=0.001 elapsed=11.2 min peak GPU=0.32 GiB
+2026-10-28 17:45:42,647 | INFO | [progress] epoch_seconds=110.5 approximate remaining at epoch cap=3.7 min; early stopping may shorten
+2026-10-28 17:45:42,649 | INFO | EPOCH 6 COMPLETE | train loss=0.7356 F1=0.6843 | val loss=0.8652 F1=0.6283 | best epoch=5 | patience=1/2
+2026-10-28 17:45:42,705 | INFO | Recovery saved: epoch=7 next batch=0
+2026-10-28 17:45:42,705 | INFO | Embedding layer UNFROZEN
+2026-10-28 17:45:50,044 | INFO | epoch=7 batch=100/1563 loss=0.6971 train F1=0.7057 lr=0.001 elapsed=11.3 min peak GPU=0.32 GiB
+2026-10-28 17:45:51,670 | INFO | Recovery saved: epoch=7 next batch=122
+2026-10-28 17:45:57,131 | INFO | epoch=7 batch=200/1563 loss=0.6980 train F1=0.7046 lr=0.001 elapsed=11.5 min peak GPU=0.32 GiB
+2026-10-28 17:46:04,119 | INFO | epoch=7 batch=300/1563 loss=0.6989 train F1=0.7035 lr=0.001 elapsed=11.6 min peak GPU=0.32 GiB
+2026-10-28 17:46:11,149 | INFO | epoch=7 batch=400/1563 loss=0.6971 train F1=0.7048 lr=0.001 elapsed=11.7 min peak GPU=0.32 GiB
+2026-10-28 17:46:18,217 | INFO | epoch=7 batch=500/1563 loss=0.6958 train F1=0.7047 lr=0.001 elapsed=11.8 min peak GPU=0.32 GiB
+2026-10-28 17:46:25,393 | INFO | epoch=7 batch=600/1563 loss=0.6969 train F1=0.7034 lr=0.001 elapsed=11.9 min peak GPU=0.32 GiB
+2026-10-28 17:46:27,002 | INFO | Recovery saved: epoch=7 next batch=622
+2026-10-28 17:46:32,516 | INFO | epoch=7 batch=700/1563 loss=0.6963 train F1=0.7036 lr=0.001 elapsed=12.1 min peak GPU=0.32 GiB
+2026-10-28 17:46:39,567 | INFO | epoch=7 batch=800/1563 loss=0.6971 train F1=0.7029 lr=0.001 elapsed=12.2 min peak GPU=0.32 GiB
+2026-10-28 17:46:46,758 | INFO | epoch=7 batch=900/1563 loss=0.6982 train F1=0.7023 lr=0.001 elapsed=12.3 min peak GPU=0.32 GiB
+2026-10-28 17:46:53,882 | INFO | epoch=7 batch=1000/1563 loss=0.6995 train F1=0.7017 lr=0.001 elapsed=12.4 min peak GPU=0.32 GiB
+2026-10-28 17:47:00,889 | INFO | epoch=7 batch=1100/1563 loss=0.7010 train F1=0.7011 lr=0.001 elapsed=12.5 min peak GPU=0.32 GiB
+2026-10-28 17:47:02,510 | INFO | Recovery saved: epoch=7 next batch=1122
+2026-10-28 17:47:07,955 | INFO | epoch=7 batch=1200/1563 loss=0.7032 train F1=0.6998 lr=0.001 elapsed=12.6 min peak GPU=0.32 GiB
+2026-10-28 17:47:15,089 | INFO | epoch=7 batch=1300/1563 loss=0.7037 train F1=0.6997 lr=0.001 elapsed=12.8 min peak GPU=0.32 GiB
+2026-10-28 17:47:21,986 | INFO | epoch=7 batch=1400/1563 loss=0.7051 train F1=0.6994 lr=0.001 elapsed=12.9 min peak GPU=0.32 GiB
+2026-10-28 17:47:29,063 | INFO | epoch=7 batch=1500/1563 loss=0.7059 train F1=0.6994 lr=0.001 elapsed=13.0 min peak GPU=0.32 GiB
+2026-10-28 17:47:33,488 | INFO | epoch=7 batch=1563/1563 loss=0.7061 train F1=0.6993 lr=0.001 elapsed=13.1 min peak GPU=0.32 GiB
+2026-10-28 17:47:34,013 | INFO | [progress] epoch_seconds=111.3 approximate remaining at epoch cap=1.9 min; early stopping may shorten
+2026-10-28 17:47:34,014 | INFO | EPOCH 7 COMPLETE | train loss=0.7061 F1=0.6993 | val loss=0.8796 F1=0.6282 | best epoch=5 | patience=2/2
+2026-10-28 17:47:34,079 | INFO | Recovery saved: epoch=8 next batch=0
+2026-10-28 17:47:34,208 | INFO | TRAINING COMPLETE | baseline seed 42 | 0.22 hours | best val F1=0.6318 | test untouched

@@ -1,0 +1,758 @@
+[
+  {
+    "model": "rnn",
+    "strategy": "greedy",
+    "temperature": 1.0,
+    "top_k": 10,
+    "sample_index": 1,
+    "prompt": "A student found an exam paper containing tomorrow's answers.",
+    "output": "A student found an exam paper containing tomorrow's answers. it was a big , scary monster . the bird was very happy and loved to play together . one day , the bird saw a big tree . the bird was scared and wanted to help . the bird flew away and the bird flew away . the bird was so happy to see the bird . the bird was so happy and thanked the bird . the bird was so happy and thanked the bird . the bird"
+  },
+  {
+    "model": "rnn",
+    "strategy": "greedy",
+    "temperature": 1.0,
+    "top_k": 10,
+    "sample_index": 2,
+    "prompt": "A student found an exam paper containing tomorrow's answers.",
+    "output": "A student found an exam paper containing tomorrow's answers. it was a big , scary monster . the bird was very happy and loved to play together . one day , the bird saw a big tree . the bird was scared and wanted to help . the bird flew away and the bird flew away . the bird was so happy to see the bird . the bird was so happy and thanked the bird . the bird was so happy and thanked the bird . the bird"
+  },
+  {
+    "model": "rnn",
+    "strategy": "greedy",
+    "temperature": 1.0,
+    "top_k": 10,
+    "sample_index": 1,
+    "prompt": "An old robot received a message from its future self.",
+    "output": "An old robot received a message from its future self. he was very happy and he was very happy . he had a big smile on his face and he was always very happy . one day , he saw a big tree with a big tree . he wanted to play with it , but he was too shy to get his friend . he was so happy and thanked the bird . he was so happy and thanked the bird . he was so happy and thanked the"
+  },
+  {
+    "model": "rnn",
+    "strategy": "greedy",
+    "temperature": 1.0,
+    "top_k": 10,
+    "sample_index": 2,
+    "prompt": "An old robot received a message from its future self.",
+    "output": "An old robot received a message from its future self. he was very happy and he was very happy . he had a big smile on his face and he was always very happy . one day , he saw a big tree with a big tree . he wanted to play with it , but he was too shy to get his friend . he was so happy and thanked the bird . he was so happy and thanked the bird . he was so happy and thanked the"
+  },
+  {
+    "model": "rnn",
+    "strategy": "greedy",
+    "temperature": 1.0,
+    "top_k": 10,
+    "sample_index": 1,
+    "prompt": "A detective solved a murder that had not happened yet.",
+    "output": "A detective solved a murder that had not happened yet. he was very excited and wanted to play with it . he asked his mom , \" what is that ? \" the bird said , \" i am a little girl . i am a little girl . i am a little girl . i am a little girl . i am a little girl . i am a little girl . i am a little girl . i am a little girl . i am a little girl"
+  },
+  {
+    "model": "rnn",
+    "strategy": "greedy",
+    "temperature": 1.0,
+    "top_k": 10,
+    "sample_index": 2,
+    "prompt": "A detective solved a murder that had not happened yet.",
+    "output": "A detective solved a murder that had not happened yet. he was very excited and wanted to play with it . he asked his mom , \" what is that ? \" the bird said , \" i am a little girl . i am a little girl . i am a little girl . i am a little girl . i am a little girl . i am a little girl . i am a little girl . i am a little girl . i am a little girl"
+  },
+  {
+    "model": "rnn",
+    "strategy": "greedy",
+    "temperature": 1.0,
+    "top_k": 10,
+    "sample_index": 1,
+    "prompt": "One morning, a whole village forgot the previous day.",
+    "output": "One morning, a whole village forgot the previous day. they were walking in the park when they saw a big tree . the bird was very sad and wanted to help . the bird flew away and the bird flew away . the bird was so happy and thanked the bird . the bird was so happy and thanked the bird . the bird was so happy and thanked the bird . the bird was so happy and thanked the bird . the bird was so happy and thanked"
+  },
+  {
+    "model": "rnn",
+    "strategy": "greedy",
+    "temperature": 1.0,
+    "top_k": 10,
+    "sample_index": 2,
+    "prompt": "One morning, a whole village forgot the previous day.",
+    "output": "One morning, a whole village forgot the previous day. they were walking in the park when they saw a big tree . the bird was very sad and wanted to help . the bird flew away and the bird flew away . the bird was so happy and thanked the bird . the bird was so happy and thanked the bird . the bird was so happy and thanked the bird . the bird was so happy and thanked the bird . the bird was so happy and thanked"
+  },
+  {
+    "model": "rnn",
+    "strategy": "greedy",
+    "temperature": 1.0,
+    "top_k": 10,
+    "sample_index": 1,
+    "prompt": "A letter arrived from one hundred years in the future.",
+    "output": "A letter arrived from one hundred years in the future. he was so excited ! he ran to the tree and saw a big tree . he was so excited ! he ran to the tree and started to climb the tree . he was so happy and thanked the bird . he was so happy and thanked the bird . he was so happy and thanked the bird . he was so happy and thanked the bird . he was so happy and thanked the bird . he was"
+  },
+  {
+    "model": "rnn",
+    "strategy": "greedy",
+    "temperature": 1.0,
+    "top_k": 10,
+    "sample_index": 2,
+    "prompt": "A letter arrived from one hundred years in the future.",
+    "output": "A letter arrived from one hundred years in the future. he was so excited ! he ran to the tree and saw a big tree . he was so excited ! he ran to the tree and started to climb the tree . he was so happy and thanked the bird . he was so happy and thanked the bird . he was so happy and thanked the bird . he was so happy and thanked the bird . he was so happy and thanked the bird . he was"
+  },
+  {
+    "model": "rnn",
+    "strategy": "greedy",
+    "temperature": 1.0,
+    "top_k": 10,
+    "sample_index": 1,
+    "prompt": "The new kid at school knew everyone's secrets but had never met them.",
+    "output": "The new kid at school knew everyone's secrets but had never met them. he was so happy and he had a great time ."
+  },
+  {
+    "model": "rnn",
+    "strategy": "greedy",
+    "temperature": 1.0,
+    "top_k": 10,
+    "sample_index": 2,
+    "prompt": "The new kid at school knew everyone's secrets but had never met them.",
+    "output": "The new kid at school knew everyone's secrets but had never met them. he was so happy and he had a great time ."
+  },
+  {
+    "model": "rnn",
+    "strategy": "greedy",
+    "temperature": 1.0,
+    "top_k": 10,
+    "sample_index": 1,
+    "prompt": "Every night, the moon moved closer to the village.",
+    "output": "Every night, the moon moved closer to the village. the boat was very happy and loved to play together . one day , the family decided to go to the park . they saw a big tree with lots of trees and flowers . the birds were so excited to see the bird . the bird was so happy and thanked the bird . the bird was so happy and thanked the bird . the bird was so happy and thanked the bird . the bird was so happy"
+  },
+  {
+    "model": "rnn",
+    "strategy": "greedy",
+    "temperature": 1.0,
+    "top_k": 10,
+    "sample_index": 2,
+    "prompt": "Every night, the moon moved closer to the village.",
+    "output": "Every night, the moon moved closer to the village. the boat was very happy and loved to play together . one day , the family decided to go to the park . they saw a big tree with lots of trees and flowers . the birds were so excited to see the bird . the bird was so happy and thanked the bird . the bird was so happy and thanked the bird . the bird was so happy and thanked the bird . the bird was so happy"
+  },
+  {
+    "model": "rnn",
+    "strategy": "temperature",
+    "temperature": 0.8,
+    "top_k": 10,
+    "sample_index": 1,
+    "prompt": "A student found an exam paper containing tomorrow's answers.",
+    "output": "A student found an exam paper containing tomorrow's answers. he was a very powerful puppy who was very competitive and he loved to explore the world . one day , he saw a big lake with many things in a cage . the cat wanted to eat the food but it was too late . timmy and his friends were excited to have found their puppy . they continued the rock and the puzzle was happy ."
+  },
+  {
+    "model": "rnn",
+    "strategy": "temperature",
+    "temperature": 0.8,
+    "top_k": 10,
+    "sample_index": 2,
+    "prompt": "A student found an exam paper containing tomorrow's answers.",
+    "output": "A student found an exam paper containing tomorrow's answers. it was a tall tree and loved to play with . but one day , the little boy was hopping around the park when he saw a big tree . the frog was sad and was so excited . he saw a big fish on the ground . he wanted to know what was inside . he said , \" hi , i'm any sack ! \" . he had an idea . he walked to the tree and asked"
+  },
+  {
+    "model": "rnn",
+    "strategy": "temperature",
+    "temperature": 0.8,
+    "top_k": 10,
+    "sample_index": 1,
+    "prompt": "An old robot received a message from its future self.",
+    "output": "An old robot received a message from its future self. timmy was very playful and loved to play in the grass . one day , he found a big spike in the ground . he thought it was funny and so he could feel better . he went , and started to make a noise . he stepped up and saw a huge lake near a tree . sammy was scared . he didn't know what to do . he decided to add the key to the stick . as"
+  },
+  {
+    "model": "rnn",
+    "strategy": "temperature",
+    "temperature": 0.8,
+    "top_k": 10,
+    "sample_index": 2,
+    "prompt": "An old robot received a message from its future self.",
+    "output": "An old robot received a message from its future self. he was three years old and was the most frightened or miserable . he could play with him wherever he wanted to do something he was never . despite they went up to the forest , and - seek with the other . they saw a big flag in the gym . it was big and shiny . it was shiny and shiny and had no heel on the table . it made a loud noise . the garden was"
+  },
+  {
+    "model": "rnn",
+    "strategy": "temperature",
+    "temperature": 0.8,
+    "top_k": 10,
+    "sample_index": 1,
+    "prompt": "A detective solved a murder that had not happened yet.",
+    "output": "A detective solved a murder that had not happened yet. it was a cold day and the sun was beginning to a <unk> . the bird was so excited to play with their toys . they ran to mommy's music and pretend they were . when they were done , they started to play . the lucky driver was scared , but they still had to be careful and not make him happy ."
+  },
+  {
+    "model": "rnn",
+    "strategy": "temperature",
+    "temperature": 0.8,
+    "top_k": 10,
+    "sample_index": 2,
+    "prompt": "A detective solved a murder that had not happened yet.",
+    "output": "A detective solved a murder that had not happened yet. he was so excited and asked his mom if he could play with him . he hugged him tightly , the bird liked the best of the world around him . although the little navy was so happy , he thanked the frog for his friends to play with the king ."
+  },
+  {
+    "model": "rnn",
+    "strategy": "temperature",
+    "temperature": 0.8,
+    "top_k": 10,
+    "sample_index": 1,
+    "prompt": "One morning, a whole village forgot the previous day.",
+    "output": "One morning, a whole village forgot the previous day. they were running around in the sand and grabbed the bucket and set out ! they were so excited ! he grabbed the rope and put it in his pocket . he was so happy and hugged his mom . \" look , tom ! \" they said they said . \" let's go to the park . we can take turns and get our goals . we have to eat our lunch , but mom says it's to be"
+  },
+  {
+    "model": "rnn",
+    "strategy": "temperature",
+    "temperature": 0.8,
+    "top_k": 10,
+    "sample_index": 2,
+    "prompt": "One morning, a whole village forgot the previous day.",
+    "output": "One morning, a whole village forgot the previous day. they were very hungry . they wanted to go to the park to play with . they were both excited and his mom said \" the kids , sam , come with me , please ! \" they went to the store and bought some sticks . they looked and looked for the plants . they said that would make a wish . they took turns to the ground with their hands and planets and pretended it was hidden ."
+  },
+  {
+    "model": "rnn",
+    "strategy": "temperature",
+    "temperature": 0.8,
+    "top_k": 10,
+    "sample_index": 1,
+    "prompt": "A letter arrived from one hundred years in the future.",
+    "output": "A letter arrived from one hundred years in the future. he pointed to the top of the tree and found a treasure chest in the corner of the reef . he was excited to see the bird . he put the rice on the head and opened it . he was so excited he put them in his pocket . he said , \" what are you doing ? \" the boy was so happy and thanked the new boy ."
+  },
+  {
+    "model": "rnn",
+    "strategy": "temperature",
+    "temperature": 0.8,
+    "top_k": 10,
+    "sample_index": 2,
+    "prompt": "A letter arrived from one hundred years in the future.",
+    "output": "A letter arrived from one hundred years in the future. it was a modern sunrise ! he decided to go home and see the fish . he was worried and he wanted to say hello . the fox decided to take it to the top of the mountain . she said € ˜ , € she said , € i am winning , \" she said . as they walked out , the kitty wondered what was wrong . she told her that it was not spoiled to help others"
+  },
+  {
+    "model": "rnn",
+    "strategy": "temperature",
+    "temperature": 0.8,
+    "top_k": 10,
+    "sample_index": 1,
+    "prompt": "The new kid at school knew everyone's secrets but had never met them.",
+    "output": "The new kid at school knew everyone's secrets but had never met them. he decided to be careful and very curious about it . he looked around and saw a dead in surprise . the mouse was very angry and wanted to help . he tried to get lost and soon he fell . the boy was sad because he could not trust the bird . the engine said , \" don't worry , remy . you have to stay safe and make your own soup . \" they start to catch the"
+  },
+  {
+    "model": "rnn",
+    "strategy": "temperature",
+    "temperature": 0.8,
+    "top_k": 10,
+    "sample_index": 2,
+    "prompt": "The new kid at school knew everyone's secrets but had never met them.",
+    "output": "The new kid at school knew everyone's secrets but had never met them. he was sad because he didn't run and play not to hide . he couldn't wait to rest to get his friend . she put on his <unk> and his milk for a few minutes . suddenly , he heard a loud noise . he thought it was funny , but he was curious to take something to win . but he didn't listen . he stopped to see what was wrong . he said , \" i want my"
+  },
+  {
+    "model": "rnn",
+    "strategy": "temperature",
+    "temperature": 0.8,
+    "top_k": 10,
+    "sample_index": 1,
+    "prompt": "Every night, the moon moved closer to the village.",
+    "output": "Every night, the moon moved closer to the village. the barber was very excited to go and play with the birds . but the sun was shining and blue , and soon it rolled up high . the little girl was so happy . the three year old asked it , € what the swan was doing ? € € she said , € yes , i made this well like you . € always smiled and said , € yes , you can be able to serve the"
+  },
+  {
+    "model": "rnn",
+    "strategy": "temperature",
+    "temperature": 0.8,
+    "top_k": 10,
+    "sample_index": 2,
+    "prompt": "Every night, the moon moved closer to the village.",
+    "output": "Every night, the moon moved closer to the village. the van was happy . the little human had a big box of water . the lizard knew it was a box and brought a basket of a bowl of soil and they weighed . the new <unk> eyes lit up . it was so happy ! \" wow , that could do great ! \" so , they both ran over to the little house . they were very happy . but then , the tree came back ."
+  },
+  {
+    "model": "rnn",
+    "strategy": "top_k",
+    "temperature": 1.0,
+    "top_k": 10,
+    "sample_index": 1,
+    "prompt": "A student found an exam paper containing tomorrow's answers.",
+    "output": "A student found an exam paper containing tomorrow's answers. it had a lot of food and a tree . one day , a little fish named tim found a shiny nut coming towards him . the little boy saw the other birds and said , \" i'm sorry , sweetheart , \" he said . \" we should get to it , \" said it ! \" i want to play with us ! \" so they ran to the store and found a nice man in the forest"
+  },
+  {
+    "model": "rnn",
+    "strategy": "top_k",
+    "temperature": 1.0,
+    "top_k": 10,
+    "sample_index": 2,
+    "prompt": "A student found an exam paper containing tomorrow's answers.",
+    "output": "A student found an exam paper containing tomorrow's answers. it had a big box . the boat was very excited and it was so happy . the boy wanted to see a big tree . he looked around the house with the sky , hoping to get the carrot back to its home . he hopped around the garden , and he started to feel scared . suddenly , the door came and saw something shiny . the dog was very sad and ran to the tree . the"
+  },
+  {
+    "model": "rnn",
+    "strategy": "top_k",
+    "temperature": 1.0,
+    "top_k": 10,
+    "sample_index": 1,
+    "prompt": "An old robot received a message from its future self.",
+    "output": "An old robot received a message from its future self. they were going to play and play together . the end of its friends and they were both very tired . they had a fun time in the park and the sun was shining , and he was very happy . he had so much fun playing in the sand , but it was too late . the end ."
+  },
+  {
+    "model": "rnn",
+    "strategy": "top_k",
+    "temperature": 1.0,
+    "top_k": 10,
+    "sample_index": 2,
+    "prompt": "An old robot received a message from its future self.",
+    "output": "An old robot received a message from its future self. he was so excited to explore the world around him . he ran around with the big , and his family . \" can i play , please ? \" he thought to himself , \" i will take care of you and i can't do it . \" he smiled and said , \" that's a little girl ! \" lily was happy too . lily and her brother were so proud of their special moment ."
+  },
+  {
+    "model": "rnn",
+    "strategy": "top_k",
+    "temperature": 1.0,
+    "top_k": 10,
+    "sample_index": 1,
+    "prompt": "A detective solved a murder that had not happened yet.",
+    "output": "A detective solved a murder that had not happened yet. they both wanted to be brave , so one day it was the tallest <unk> . the boat had a big , strong bird and the other side of the park . suddenly , a loud noise came . he asked the rabbit to get a carrot . he was surprised . he said , \" i want to play my flute . you can play with your toys and make me clean up your room for dinner . \""
+  },
+  {
+    "model": "rnn",
+    "strategy": "top_k",
+    "temperature": 1.0,
+    "top_k": 10,
+    "sample_index": 2,
+    "prompt": "A detective solved a murder that had not happened yet.",
+    "output": "A detective solved a murder that had not happened yet. he saw a little fish and asked her if he was trying to get his favorite toy to play . timmy didn't want to take a nap , but he didn't know how to help . he started to climb and play with his toys . suddenly , he heard a noise . the bird saw a big bird with a big rock ! the cat was scared and sad . his mom was very happy and said , \""
+  },
+  {
+    "model": "rnn",
+    "strategy": "top_k",
+    "temperature": 1.0,
+    "top_k": 10,
+    "sample_index": 1,
+    "prompt": "One morning, a whole village forgot the previous day.",
+    "output": "One morning, a whole village forgot the previous day. he wanted to learn something different . he asked him why he was looking for a long time . she was so excited that she started running back to her house . when she saw that she had a problem , she knew that she was in the park !"
+  },
+  {
+    "model": "rnn",
+    "strategy": "top_k",
+    "temperature": 1.0,
+    "top_k": 10,
+    "sample_index": 2,
+    "prompt": "One morning, a whole village forgot the previous day.",
+    "output": "One morning, a whole village forgot the previous day. they wanted to go on a walk . they saw lots of trees and animals . they were very excited to see what it was . but the little boy felt very sad . he knew the man was doing so the boy would come and help . his mother saw that he had made some food . he looked around and saw a big tree . he wanted to get closer to the top of the branches , so"
+  },
+  {
+    "model": "rnn",
+    "strategy": "top_k",
+    "temperature": 1.0,
+    "top_k": 10,
+    "sample_index": 1,
+    "prompt": "A letter arrived from one hundred years in the future.",
+    "output": "A letter arrived from one hundred years in the future. he was so excited to see the little boy . he was very happy . he said , \" thank you for helping my friend , \" said lily . \" it's okay , \" lily said . the bird nodded in agreement and continued exploring the tree . she had an amazing adventure that it could see all sorts of exciting things ."
+  },
+  {
+    "model": "rnn",
+    "strategy": "top_k",
+    "temperature": 1.0,
+    "top_k": 10,
+    "sample_index": 2,
+    "prompt": "A letter arrived from one hundred years in the future.",
+    "output": "A letter arrived from one hundred years in the future. he was so excited to see the players in the sky and he wanted to find out what the bird said . he ran inside to play and said , \" i will be so proud . can we keep it ? \" the cat said , \" yes , let's try ! \" \" let's make a sandcastle together ! \" so they both went back to the house and soon they were able to go . it was"
+  },
+  {
+    "model": "rnn",
+    "strategy": "top_k",
+    "temperature": 1.0,
+    "top_k": 10,
+    "sample_index": 1,
+    "prompt": "The new kid at school knew everyone's secrets but had never met them.",
+    "output": "The new kid at school knew everyone's secrets but had never met them. the boy wanted to find a big , so he hopped to the door and saw the little boy and said , \" that's right ! \" the little boy said , \" i can help you to find my way back to us the right . we just have lots of fun . let's go back soon ! \" the boy and said , \" let's make a cake for you ! \" they ran after the boat ."
+  },
+  {
+    "model": "rnn",
+    "strategy": "top_k",
+    "temperature": 1.0,
+    "top_k": 10,
+    "sample_index": 2,
+    "prompt": "The new kid at school knew everyone's secrets but had never met them.",
+    "output": "The new kid at school knew everyone's secrets but had never met them. he wanted to go outside and play with he . the boy felt very sad . he didn't want to be scared . he tried to find it , but the boy was too fast . he was not sure that he could help them . he felt sad and angry . he wanted a lot of trouble so much that it could get him ."
+  },
+  {
+    "model": "rnn",
+    "strategy": "top_k",
+    "temperature": 1.0,
+    "top_k": 10,
+    "sample_index": 1,
+    "prompt": "Every night, the moon moved closer to the village.",
+    "output": "Every night, the moon moved closer to the village. the daughter was very quiet and wanted to know . one day , while the dog was walking down the park , there was a tall tree . it was very cold ! it looked around . the bird said , \" we can have it ! \" the frog hopped up and down the tree , until she saw the bird in the sky . she felt so happy ! she hugged her mom and went off to her"
+  },
+  {
+    "model": "rnn",
+    "strategy": "top_k",
+    "temperature": 1.0,
+    "top_k": 10,
+    "sample_index": 2,
+    "prompt": "Every night, the moon moved closer to the village.",
+    "output": "Every night, the moon moved closer to the village. it was a sunny day . one day , a little boy was running around his room . he was very happy because it was getting dark outside . the bird was very big and strong . it looked up and saw it was a big , scary dog . the bird said , \" hi ! i'm so excited ! \" the girl and her mum laughed and said \" thank you for finding this special gift ! you"
+  },
+  {
+    "model": "lstm",
+    "strategy": "greedy",
+    "temperature": 1.0,
+    "top_k": 10,
+    "sample_index": 1,
+    "prompt": "A student found an exam paper containing tomorrow's answers.",
+    "output": "A student found an exam paper containing tomorrow's answers. the little girl was so excited ! she ran around the house , looking for something to eat . she saw a big , green frog . she was so excited ! she ran to the kitchen and opened it . she was so excited ! she ran around the house and found a big , shiny object . she was so happy and excited to show her mom . she was so happy to have her own special gift"
+  },
+  {
+    "model": "lstm",
+    "strategy": "greedy",
+    "temperature": 1.0,
+    "top_k": 10,
+    "sample_index": 2,
+    "prompt": "A student found an exam paper containing tomorrow's answers.",
+    "output": "A student found an exam paper containing tomorrow's answers. the little girl was so excited ! she ran around the house , looking for something to eat . she saw a big , green frog . she was so excited ! she ran to the kitchen and opened it . she was so excited ! she ran around the house and found a big , shiny object . she was so happy and excited to show her mom . she was so happy to have her own special gift"
+  },
+  {
+    "model": "lstm",
+    "strategy": "greedy",
+    "temperature": 1.0,
+    "top_k": 10,
+    "sample_index": 1,
+    "prompt": "An old robot received a message from its future self.",
+    "output": "An old robot received a message from its future self. he was very excited and wanted to go to the store . he asked his mom if he could have some of the cake . he said yes and he was so excited . he wanted to show his mom how to use the door to make the cake . he put the pieces in the oven and waited for the cake to make it . he was so excited to see the big , shiny object . he put"
+  },
+  {
+    "model": "lstm",
+    "strategy": "greedy",
+    "temperature": 1.0,
+    "top_k": 10,
+    "sample_index": 2,
+    "prompt": "An old robot received a message from its future self.",
+    "output": "An old robot received a message from its future self. he was very excited and wanted to go to the store . he asked his mom if he could have some of the cake . he said yes and he was so excited . he wanted to show his mom how to use the door to make the cake . he put the pieces in the oven and waited for the cake to make it . he was so excited to see the big , shiny object . he put"
+  },
+  {
+    "model": "lstm",
+    "strategy": "greedy",
+    "temperature": 1.0,
+    "top_k": 10,
+    "sample_index": 1,
+    "prompt": "A detective solved a murder that had not happened yet.",
+    "output": "A detective solved a murder that had not happened yet. the little girl was very sad . she wanted to go to the park . she ran to the kitchen and saw a big , green tree . she was so excited ! she ran to the tree and started to climb the tree . she was so happy and excited . she ran around the garden , looking for something to eat . she saw a big , green tree with a big smile on her face . she"
+  },
+  {
+    "model": "lstm",
+    "strategy": "greedy",
+    "temperature": 1.0,
+    "top_k": 10,
+    "sample_index": 2,
+    "prompt": "A detective solved a murder that had not happened yet.",
+    "output": "A detective solved a murder that had not happened yet. the little girl was very sad . she wanted to go to the park . she ran to the kitchen and saw a big , green tree . she was so excited ! she ran to the tree and started to climb the tree . she was so happy and excited . she ran around the garden , looking for something to eat . she saw a big , green tree with a big smile on her face . she"
+  },
+  {
+    "model": "lstm",
+    "strategy": "greedy",
+    "temperature": 1.0,
+    "top_k": 10,
+    "sample_index": 1,
+    "prompt": "One morning, a whole village forgot the previous day.",
+    "output": "One morning, a whole village forgot the previous day. the little boy was very excited . he wanted to go to the store to buy some food . he asked his mom if he could have some money . he said yes and he was so excited . he wanted to show his mom how to use the money to buy it . he put on his shoes and went to the store . he saw a big , shiny object . he was so excited ! he wanted"
+  },
+  {
+    "model": "lstm",
+    "strategy": "greedy",
+    "temperature": 1.0,
+    "top_k": 10,
+    "sample_index": 2,
+    "prompt": "One morning, a whole village forgot the previous day.",
+    "output": "One morning, a whole village forgot the previous day. the little boy was very excited . he wanted to go to the store to buy some food . he asked his mom if he could have some money . he said yes and he was so excited . he wanted to show his mom how to use the money to buy it . he put on his shoes and went to the store . he saw a big , shiny object . he was so excited ! he wanted"
+  },
+  {
+    "model": "lstm",
+    "strategy": "greedy",
+    "temperature": 1.0,
+    "top_k": 10,
+    "sample_index": 1,
+    "prompt": "A letter arrived from one hundred years in the future.",
+    "output": "A letter arrived from one hundred years in the future. the little girl was very excited . she wanted to go to the park . she ran to the park and saw a big tree . she wanted to climb it , so she ran to the tree and started to climb . she was so excited to see the birds flying around the garden . she was so excited to see the birds flying around the garden . she was so excited to see the beautiful view . she"
+  },
+  {
+    "model": "lstm",
+    "strategy": "greedy",
+    "temperature": 1.0,
+    "top_k": 10,
+    "sample_index": 2,
+    "prompt": "A letter arrived from one hundred years in the future.",
+    "output": "A letter arrived from one hundred years in the future. the little girl was very excited . she wanted to go to the park . she ran to the park and saw a big tree . she wanted to climb it , so she ran to the tree and started to climb . she was so excited to see the birds flying around the garden . she was so excited to see the birds flying around the garden . she was so excited to see the beautiful view . she"
+  },
+  {
+    "model": "lstm",
+    "strategy": "greedy",
+    "temperature": 1.0,
+    "top_k": 10,
+    "sample_index": 1,
+    "prompt": "The new kid at school knew everyone's secrets but had never met them.",
+    "output": "The new kid at school knew everyone's secrets but had never met them. he was very excited and he wanted to go to the park . he saw a big , green frog . he wanted to go on an adventure , so he asked his mom if he could go . he said yes and he ran to the park . he saw a big tree with lots of leaves . he wanted to see what was inside the box . he asked his mom , \" can i have some of"
+  },
+  {
+    "model": "lstm",
+    "strategy": "greedy",
+    "temperature": 1.0,
+    "top_k": 10,
+    "sample_index": 2,
+    "prompt": "The new kid at school knew everyone's secrets but had never met them.",
+    "output": "The new kid at school knew everyone's secrets but had never met them. he was very excited and he wanted to go to the park . he saw a big , green frog . he wanted to go on an adventure , so he asked his mom if he could go . he said yes and he ran to the park . he saw a big tree with lots of leaves . he wanted to see what was inside the box . he asked his mom , \" can i have some of"
+  },
+  {
+    "model": "lstm",
+    "strategy": "greedy",
+    "temperature": 1.0,
+    "top_k": 10,
+    "sample_index": 1,
+    "prompt": "Every night, the moon moved closer to the village.",
+    "output": "Every night, the moon moved closer to the village. the sun was shining and the sky was shining . the sun was shining brightly and the sky was full of bright colors . the sun was shining and the sky was so big and strong . the sun was shining brightly and the sky was full of joy . the sun was shining brightly and the sky was full of joy . the sun was shining brightly and the sky was filled with joy . the sun was shining"
+  },
+  {
+    "model": "lstm",
+    "strategy": "greedy",
+    "temperature": 1.0,
+    "top_k": 10,
+    "sample_index": 2,
+    "prompt": "Every night, the moon moved closer to the village.",
+    "output": "Every night, the moon moved closer to the village. the sun was shining and the sky was shining . the sun was shining brightly and the sky was full of bright colors . the sun was shining and the sky was so big and strong . the sun was shining brightly and the sky was full of joy . the sun was shining brightly and the sky was full of joy . the sun was shining brightly and the sky was filled with joy . the sun was shining"
+  },
+  {
+    "model": "lstm",
+    "strategy": "temperature",
+    "temperature": 0.8,
+    "top_k": 10,
+    "sample_index": 1,
+    "prompt": "A student found an exam paper containing tomorrow's answers.",
+    "output": "A student found an exam paper containing tomorrow's answers. the octopus was so excited ! it was the most fun day ever ! everyone was so happy that it called out for the delicious cake . the two friends were very happy . one day , the old lady took a <unk> from the table . she could not find it anywhere . she wanted to show it to the man . suddenly , a little girl figured out from the horse . she thought they were going to"
+  },
+  {
+    "model": "lstm",
+    "strategy": "temperature",
+    "temperature": 0.8,
+    "top_k": 10,
+    "sample_index": 2,
+    "prompt": "A student found an exam paper containing tomorrow's answers.",
+    "output": "A student found an exam paper containing tomorrow's answers. he was so excited . he wanted to put off the shoe in the oven and add it to he was able to sit on . he asked his mom if she could have a special present . the little boy said to himself , \" i'm going to open it . you need to share it with me . \" rory was so happy and started walking on the reef . he said , \" i'm trying to make"
+  },
+  {
+    "model": "lstm",
+    "strategy": "temperature",
+    "temperature": 0.8,
+    "top_k": 10,
+    "sample_index": 1,
+    "prompt": "An old robot received a message from its future self.",
+    "output": "An old robot received a message from its future self. she was so excited that she thanked her mom for making her salad for her special day . she said goodbye to the puppy and to the big stack . the little girl was so happy . she shouted the dress - <unk> , and all the books and showed her how to make her own secrets . the girl was excited to learn how the day she had never seen before . she had made her own music ,"
+  },
+  {
+    "model": "lstm",
+    "strategy": "temperature",
+    "temperature": 0.8,
+    "top_k": 10,
+    "sample_index": 2,
+    "prompt": "An old robot received a message from its future self.",
+    "output": "An old robot received a message from its future self. she asked the little girl what it was for , but she said it was a dishwasher . she smiled and said , \" i am so happy . \" the little girl felt happy and brave . she decided to fold the picture of the oven to make the lady better . she put all her underneath the <unk> and headed on the floor . she started to yell and paint until the house was gone . € i"
+  },
+  {
+    "model": "lstm",
+    "strategy": "temperature",
+    "temperature": 0.8,
+    "top_k": 10,
+    "sample_index": 1,
+    "prompt": "A detective solved a murder that had not happened yet.",
+    "output": "A detective solved a murder that had not happened yet. but then it was very special . it was very lonely . it laid down and thought of something interesting . a little girl came over . she wanted to touch the mystery . she pressed the button and it was so sweet . the little girl decided to try it . the little girl ran outside and showed it to the pond . she put the lotion in her mouth and went on the tree . when she saw"
+  },
+  {
+    "model": "lstm",
+    "strategy": "temperature",
+    "temperature": 0.8,
+    "top_k": 10,
+    "sample_index": 2,
+    "prompt": "A detective solved a murder that had not happened yet.",
+    "output": "A detective solved a murder that had not happened yet. a little girl was stuck in the swamp and she was very sad . she asked her mom , \" what do you want ? \" her mom asked . he said yes . her dad came into the playground . she saw the other dancers in the garden and said , \" no , i want to go . i don't know how we can keep the door . come just and it € ™ t want to make"
+  },
+  {
+    "model": "lstm",
+    "strategy": "temperature",
+    "temperature": 0.8,
+    "top_k": 10,
+    "sample_index": 1,
+    "prompt": "One morning, a whole village forgot the previous day.",
+    "output": "One morning, a whole village forgot the previous day. everyone in the jungle was so excited to see the parade . then , it was the same thing . it worked and everyone was very happy . then , the little girl found an old lady perched on a branch . she was very happy and thanked her mom . \" i want to go home and now , i told you how to attach the card \" . the fairy smiled and said , \" yes , i"
+  },
+  {
+    "model": "lstm",
+    "strategy": "temperature",
+    "temperature": 0.8,
+    "top_k": 10,
+    "sample_index": 2,
+    "prompt": "One morning, a whole village forgot the previous day.",
+    "output": "One morning, a whole village forgot the previous day. it was raining in the sky , a little girl named mia . lisa had an idea . she said , \" let's the park to play ! \" they hopped around the park . anna saw a lot of kids on the ground . she said to her mommy , \" can we go near the rock ? \" her mom replied , \" yes , you have to be careful . \" the little girl thought about it"
+  },
+  {
+    "model": "lstm",
+    "strategy": "temperature",
+    "temperature": 0.8,
+    "top_k": 10,
+    "sample_index": 1,
+    "prompt": "A letter arrived from one hundred years in the future.",
+    "output": "A letter arrived from one hundred years in the future. it was a very large juicy field with lots of colorful things . one day , a little girl named sophia went to the park . she found a beautiful person who was signing to find a magical voice . then it was so shiny that she could barely contain it . so she took the jewel to the ostrich and stopped to look for something . the crowd looked around and saw a rock that seemed like to be"
+  },
+  {
+    "model": "lstm",
+    "strategy": "temperature",
+    "temperature": 0.8,
+    "top_k": 10,
+    "sample_index": 2,
+    "prompt": "A letter arrived from one hundred years in the future.",
+    "output": "A letter arrived from one hundred years in the future. it was a fun day and the west said € hello ! it was really nice . let € ™ s go back and see what is there ! \" said mom . € yes , i will help you ! € the two of them took a deep breath and started swimming the water through the air . they carried the stick around the lake . as soon as they got closer , the rabbit started to look up"
+  },
+  {
+    "model": "lstm",
+    "strategy": "temperature",
+    "temperature": 0.8,
+    "top_k": 10,
+    "sample_index": 1,
+    "prompt": "The new kid at school knew everyone's secrets but had never met them.",
+    "output": "The new kid at school knew everyone's secrets but had never met them. one day , a little boy wanted to play with his toys . he wanted to mail the perfect picture . he was brave and he decided to go to the store . he went to the store and bought a pretty blouse . and he knew that he had a surprise for his dad . he had a big jar of chocolate and he went to the store and bought some food . he wrote a nice story about"
+  },
+  {
+    "model": "lstm",
+    "strategy": "temperature",
+    "temperature": 0.8,
+    "top_k": 10,
+    "sample_index": 2,
+    "prompt": "The new kid at school knew everyone's secrets but had never met them.",
+    "output": "The new kid at school knew everyone's secrets but had never met them. it was the best day ever !"
+  },
+  {
+    "model": "lstm",
+    "strategy": "temperature",
+    "temperature": 0.8,
+    "top_k": 10,
+    "sample_index": 1,
+    "prompt": "Every night, the moon moved closer to the village.",
+    "output": "Every night, the moon moved closer to the village. \" i won a place to go to the grass ? \" she asked . \" i can do it , i will like it ! \" said it . mama said , \" i want to bathe ! \" the two friends both looked around , but they couldn't find it . they ran and had fun . but then the wind stopped and everyone wanted to run . so they started to play . they <unk> from the"
+  },
+  {
+    "model": "lstm",
+    "strategy": "temperature",
+    "temperature": 0.8,
+    "top_k": 10,
+    "sample_index": 2,
+    "prompt": "Every night, the moon moved closer to the village.",
+    "output": "Every night, the moon moved closer to the village. at the end , the dragon € ™ s mum stopped <unk> . € oh , what are you doing ? € the animal replied , € that € ™ s always been so dangerous today . € the crab nodded and took a step deep and then took a deep breath . she opened the door and saw that the mysterious creature was now full of joy . the door and the little girl found it with a sail"
+  },
+  {
+    "model": "lstm",
+    "strategy": "top_k",
+    "temperature": 1.0,
+    "top_k": 10,
+    "sample_index": 1,
+    "prompt": "A student found an exam paper containing tomorrow's answers.",
+    "output": "A student found an exam paper containing tomorrow's answers. it was a beautiful golden box . it was filled with colourful flowers on it . everyone was amazed and had an amazing day and the music was very pleased . the little girl was so proud of her work . she had a special gift that she liked to be a happy song . the little girl was so proud of herself for everyone to help her . but it was time for her special birthday !"
+  },
+  {
+    "model": "lstm",
+    "strategy": "top_k",
+    "temperature": 1.0,
+    "top_k": 10,
+    "sample_index": 2,
+    "prompt": "A student found an exam paper containing tomorrow's answers.",
+    "output": "A student found an exam paper containing tomorrow's answers. everyone clapped and cheered for help . they looked all the things and they found the beautiful landscape . there were lots of fun things to eat ! the little girl was very excited . she put on a special gift and started to look for something to eat . she opened it and found her favorite box . the girl was amazed ! she was so glad she had made the perfect wish that made the little girl smile"
+  },
+  {
+    "model": "lstm",
+    "strategy": "top_k",
+    "temperature": 1.0,
+    "top_k": 10,
+    "sample_index": 1,
+    "prompt": "An old robot received a message from its future self.",
+    "output": "An old robot received a message from its future self. he wanted to help and his family was so excited . he was happy that he wanted to help his mommy . the little boy wanted to eat some delicious ice cream . he put it in his mouth and started to get the ingredients . the little boy was so excited ! he took it outside to the store and asked if his mom had no money . his mom told him he needed to be patient and not"
+  },
+  {
+    "model": "lstm",
+    "strategy": "top_k",
+    "temperature": 1.0,
+    "top_k": 10,
+    "sample_index": 2,
+    "prompt": "An old robot received a message from its future self.",
+    "output": "An old robot received a message from its future self. it was a big , beautiful blue car . the little boy was so excited ! he grabbed his shoes and put them in his pocket . he was so proud of what he wanted to do with the new <unk> . he put the box on the stove and it was delicious ! the boy put the key on the ground and waited . then , he saw a big piece of paper in the distance . he thought"
+  },
+  {
+    "model": "lstm",
+    "strategy": "top_k",
+    "temperature": 1.0,
+    "top_k": 10,
+    "sample_index": 1,
+    "prompt": "A detective solved a murder that had not happened yet.",
+    "output": "A detective solved a murder that had not happened yet. the two of three , four , and the little girl was ready to go . the little girl wanted to show her parents how to use her . she took a deep breath and began to look at the beautiful music and a big smile . the little girl was so happy to see the baby that she had never seen it before . she was so happy with his work . but the little girl didn't listen to"
+  },
+  {
+    "model": "lstm",
+    "strategy": "top_k",
+    "temperature": 1.0,
+    "top_k": 10,
+    "sample_index": 2,
+    "prompt": "A detective solved a murder that had not happened yet.",
+    "output": "A detective solved a murder that had not happened yet. the little child thought it was funny . the child wanted to explore . he looked around and found a big tree . it was so big that it was a small house with a long mane and a big smile ! everyone was so proud of himself . the little girl felt very proud of her accomplishment . she said it was a magical place for her mommy . she waved the wand , feeling the sunshine and the"
+  },
+  {
+    "model": "lstm",
+    "strategy": "top_k",
+    "temperature": 1.0,
+    "top_k": 10,
+    "sample_index": 1,
+    "prompt": "One morning, a whole village forgot the previous day.",
+    "output": "One morning, a whole village forgot the previous day. it was so excited . when the little girl was finished , he started to draw . he was very excited . he wanted to make it better . she wanted to take a break . she tried and tried to get it , but the box was too strong enough . the girl said he could go , but it was too late . when her friend got a haircut , she said , \" don't worry , i'll"
+  },
+  {
+    "model": "lstm",
+    "strategy": "top_k",
+    "temperature": 1.0,
+    "top_k": 10,
+    "sample_index": 2,
+    "prompt": "One morning, a whole village forgot the previous day.",
+    "output": "One morning, a whole village forgot the previous day. they were so excited to play in the park ! after a few minutes , the sun started to set . the little girl saw a big fish that said , \" look at the big tree ! \" he was so excited to go to the tree . but then he saw a big , round rock . he had so much fun . he tried to take the ball , but the butterfly was too heavy for her"
+  },
+  {
+    "model": "lstm",
+    "strategy": "top_k",
+    "temperature": 1.0,
+    "top_k": 10,
+    "sample_index": 1,
+    "prompt": "A letter arrived from one hundred years in the future.",
+    "output": "A letter arrived from one hundred years in the future. the other animals were very sad because it was a special place to go to the park . one day , the man decided to take a walk . his mom had an idea . she took a sip and took him to the hospital . the little boy was so excited about his new toy ! he was so excited . he ran around and around , but he couldn't figure out what he was . then he noticed"
+  },
+  {
+    "model": "lstm",
+    "strategy": "top_k",
+    "temperature": 1.0,
+    "top_k": 10,
+    "sample_index": 2,
+    "prompt": "A letter arrived from one hundred years in the future.",
+    "output": "A letter arrived from one hundred years in the future. she was very excited to learn about what was going on . one day , the sun was shining , so she decided to go on a journey . she looked up and saw a big , black animal sitting on a branch . the bird had lots of colorful leaves that were so beautiful . the girl asked the bird if she could have some water . \" i think the apple is too far away , \" said"
+  },
+  {
+    "model": "lstm",
+    "strategy": "top_k",
+    "temperature": 1.0,
+    "top_k": 10,
+    "sample_index": 1,
+    "prompt": "The new kid at school knew everyone's secrets but had never met them.",
+    "output": "The new kid at school knew everyone's secrets but had never met them. one day the children noticed that a big , scary storm was in the sky . it was big and dark . the sun was shining ! a big , <unk> animal was so happy and ran home with his family . the boy was very happy . he was so excited . he wanted to explore the world and make them look like something fun . but when he reached the door , he saw that the ground was"
+  },
+  {
+    "model": "lstm",
+    "strategy": "top_k",
+    "temperature": 1.0,
+    "top_k": 10,
+    "sample_index": 2,
+    "prompt": "The new kid at school knew everyone's secrets but had never met them.",
+    "output": "The new kid at school knew everyone's secrets but had never met them. his mum was very angry . she said \" you need to come and get your hair for me . i will be able to make the world you want to be brave and share . \" so , jack and his mom went to the shop and saw a big sign that said \" do you want to do it ? \" jack nodded . \" let's put some food and water on the shelf . it is very"
+  },
+  {
+    "model": "lstm",
+    "strategy": "top_k",
+    "temperature": 1.0,
+    "top_k": 10,
+    "sample_index": 1,
+    "prompt": "Every night, the moon moved closer to the village.",
+    "output": "Every night, the moon moved closer to the village. he wanted to make a big cake . he looked around the garden , and found a big , white cloud . the boy was very curious and he asked his mom if he could do it again . the old man smiled and nodded his head . he knew the key must be a special treat . so it flew down and he went back to his bedroom . he was so proud . he quickly hopped off with"
+  },
+  {
+    "model": "lstm",
+    "strategy": "top_k",
+    "temperature": 1.0,
+    "top_k": 10,
+    "sample_index": 2,
+    "prompt": "Every night, the moon moved closer to the village.",
+    "output": "Every night, the moon moved closer to the village. everyone cheered and smiled . it was very happy to be friends and play all afternoon . the other animals laughed and enjoyed their time . at the end the day , the family was so excited . they were happy they had lots of fun . they all agreed to make something in the garden for them . they were both having a great time playing in the sunshine and everyone was impressed . the moral of the story"
+  }
+]

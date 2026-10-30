@@ -1,0 +1,169 @@
+{
+  "validation_indices": [
+    0,
+    1,
+    2,
+    100,
+    500,
+    1000
+  ],
+  "validation_ids": [
+    "a4942dd663020ca54575471657a0af38d82897d6",
+    "4157bc4da185971e2742f349d69a037343bc0d95",
+    "60736693e3b1b32d14337a317190c6606e879a85",
+    "3f30ddc2b0b2dfaa6455dc53c06858354dd552be",
+    "abdc13d8ae6edfa70655a263650af44d9db2cd20",
+    "e80c6f606f67caa2719c37fbb60133a73f90e88f"
+  ],
+  "unique_sources": 6,
+  "source_token_hashes": [
+    "dbdc0ef4c0417d0ccd99b8eda05a6308bd979ad4fc9b64f8debef13c14d406fa",
+    "0dde9f58e8e4fc33b409fd9cc914495da196d27ca6ed1a47f209c80d9d59c5b9",
+    "0f62141e8a51a84c65098ffce7423f6555a1330c4f67a67fa575aef1ea3d1a40",
+    "54d780df69c9002ec965c36cee8d0a1ca9a8ee622706798562b9a99e3091f070",
+    "c389dff64ed30844f66ace65ada9263136b25ca32558b29871e72e972854d9fa",
+    "4c553e2f9f053f22bb4b75169a1d3366a3b7c400e793bdd895f17c521bc68adc"
+  ],
+  "source_lengths": [
+    400,
+    400,
+    400,
+    400,
+    400,
+    400
+  ],
+  "trained_encoder_layers": [
+    {
+      "pairwise_rms_vs_first": [
+        1.4111614227294922,
+        1.4201879501342773,
+        1.4030213356018066,
+        1.4153214693069458,
+        1.408460259437561
+      ],
+      "token_std": 0.9946060180664062
+    },
+    {
+      "pairwise_rms_vs_first": [
+        1.4459211826324463,
+        1.4613666534423828,
+        1.4322184324264526,
+        1.4569993019104004,
+        1.449824571609497
+      ],
+      "token_std": 1.0107650756835938
+    }
+  ],
+  "trained_memory_rms_vs_first": [
+    1.4459211826324463,
+    1.4613666534423828,
+    1.4322184324264526,
+    1.4569993019104004,
+    1.449824571609497
+  ],
+  "fresh_memory_rms_vs_first": [
+    1.3727149963378906,
+    1.3737232685089111,
+    1.3607290983200073,
+    1.3713955879211426,
+    1.3623393774032593
+  ],
+  "trained_first_logits_rms_vs_first": [
+    0.25323718786239624,
+    0.09182554483413696,
+    0.26479893922805786,
+    0.23199708759784698,
+    0.15237155556678772
+  ],
+  "fresh_first_logits_rms_vs_first": [
+    0.032227396965026855,
+    0.03767701983451843,
+    0.03287290036678314,
+    0.03695014864206314,
+    0.02869148924946785
+  ],
+  "memory_ablation": {
+    "correct": {
+      "loss": 6.225463390350342,
+      "max_logit_change": 0.0
+    },
+    "shuffled": {
+      "loss": 6.279045104980469,
+      "max_logit_change": 2.994718551635742
+    },
+    "zero": {
+      "loss": 6.317343235015869,
+      "max_logit_change": 3.3973445892333984
+    }
+  },
+  "cached_equals_uncached": true,
+  "max_cached_vs_full_logit_error": 6.67572021484375e-06,
+  "individual_matches_batch": [
+    true,
+    true,
+    true,
+    true,
+    true,
+    true
+  ],
+  "cross_memory_and_mask_checked_steps": [
+    128,
+    128
+  ],
+  "real_padding_check": true,
+  "attention_min": 0.00026320203323848546,
+  "attention_max": 0.04390774667263031,
+  "gradient_l2": {
+    "embedding": 0.06975905505468713,
+    "encoder": 0.39637744897560345,
+    "decoder": 0.972662968929638,
+    "output": 0.6593997715075451
+  },
+  "validation_loss_recomputed": 6.182745431360581,
+  "checkpoint_validation_loss": 6.182745431360581,
+  "unique_validation_predictions": 6,
+  "validation_predictions": [
+    "new: \"i's \"i's \"i's \"i's \"i's \"i's \"i's \"i's \"i's \"i's\" \"i's \"i's \"i's \"i's \"i's\" \"i's\" \"i's \"i's \"i's \"i's\" \"i's \"i's \"i's\" \"i's\" \"i's\"",
+    "new: \"i's \"i's \"i's \"i's \"i's \"i's \"i's \"i's \"i's \"i's \"i's \"i's \"i's \"i's \"i's \"i's \"i's \"i-old\" \"i's \"i's \"i's \"i's \"i's \"i's \"i's \"i's \"i's \"i's \"i's \"i's\"",
+    "new: \"i's \"i's \"i's \"i's \"i's \"i's \"i's \"i's \"i's \"i's \"i's \"i's \"i's \"i's \"i\" \"i's \"i\" \"i's \"i's \"i's \"i's \"i's \"i's \"i's \"i's \"i\"",
+    "new: \"i's \"i's \"i's \"i's \"i's \"i\" \"i's \"i's \"i\" \"i\" \"i's \"i's \"i's \"i\" \"i\" \"i\" \"i's \"i\" \"i\" \"i's \"i's \"i's \"i's \"i's \"i's \"i\" \"i\" \"i\" \"i's \"i\" \"i\" \"i's\" \"i's\" \"i's\"",
+    "new: \"i's \"i's \"i's \"i's \"i's \"i's \"i's \"i's \"i's \"i's \"i's \"i's \"i\" \"i's \"i's \"i\" \"i's\" \"i's \"i's \"i's \"i's \"i's \"i's \"i's \"i's\" \"i's \"i's\" \"i's \"i's \"i's\" \"i's",
+    "new: \"i's \"i's \"i's \"i's \"i's \"i's \"i's \"i's \"i's \"i's \"i's \"i's \"i's \"i's \"i's \"i's \"i's \"i's \"i's \"i's \"i's \"i's \"i's \"i's \"i's \"i's \"i's \"i's \"i's \"i's \"i's \"i"
+  ],
+  "tokenizer_rebuild_identical_pieces_and_scores": true,
+  "tokenizer_corpus_hash": "8d30802f610e3d38ba99dc09e9c16e88f15ddb8fa0eb05af0e16e2b6afddeb84",
+  "tokenizer_sha256": "448b90a9bf6396cfd49e9f180fcb1ebe60f396ac88a5d9e57bafc63740dc5fa9",
+  "checkpoint_sha256": "046ed4a8689d1a6ab4477eea313ff148424e7500ce73961243a553065d12c303",
+  "schedule": [
+    {
+      "step": 1,
+      "lr": 4.419417382415922e-06
+    },
+    {
+      "step": 128,
+      "lr": 0.000565685424949238
+    },
+    {
+      "step": 200,
+      "lr": 0.0008838834764831844
+    },
+    {
+      "step": 256,
+      "lr": 0.00078125
+    },
+    {
+      "step": 384,
+      "lr": 0.000637887953849786
+    },
+    {
+      "step": 512,
+      "lr": 0.0005524271728019904
+    },
+    {
+      "step": 640,
+      "lr": 0.0004941058844013093
+    }
+  ],
+  "model_updated": false,
+  "test_data_used": false
+}

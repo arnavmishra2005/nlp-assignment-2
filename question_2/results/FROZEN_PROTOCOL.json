@@ -1,0 +1,158 @@
+{
+  "config": {
+    "dataset": {
+      "repo": "SetFit/amazon_reviews_multi_en",
+      "revision": "ec73b665e4be0f567b69d39425355401cfe0d29b",
+      "title_repo": "buruzaemon/amazon_reviews_multi",
+      "title_revision": "486fbd96a972291f6d7b4cad9d88088c5983244c",
+      "expected_sizes": {
+        "train": 200000,
+        "validation": 5000,
+        "test": 5000
+      }
+    },
+    "seeds": [
+      42,
+      123
+    ],
+    "baseline": {
+      "max_length": 200,
+      "min_frequency": 2,
+      "max_vocab": 60000,
+      "embedding_dim": 100,
+      "hidden_dim": 128,
+      "attention_dim": 128,
+      "num_layers": 2,
+      "dropout": 0.3,
+      "batch_size": 128,
+      "eval_batch_size": 256,
+      "learning_rate": 0.001,
+      "epochs": 8,
+      "patience": 2,
+      "accumulation_steps": 1,
+      "precision": "fp32"
+    },
+    "roberta": {
+      "model_name": "FacebookAI/roberta-base",
+      "revision": "e2da8e2f811d1448a5b465c236feacd80ffbac7b",
+      "max_length": 256,
+      "dropout": 0.2,
+      "batch_size": 16,
+      "eval_batch_size": 32,
+      "learning_rate": 2e-05,
+      "weight_decay": 0.01,
+      "warmup_ratio": 0.08,
+      "epochs": 3,
+      "patience": 1,
+      "accumulation_steps": 2,
+      "precision": "auto"
+    },
+    "training": {
+      "num_workers": 2,
+      "gradient_clip": 1.0,
+      "log_every_batches": 100,
+      "checkpoint_every_optimizer_steps": 500,
+      "min_delta": 0.0001
+    },
+    "qualitative_seed": 42
+  },
+  "runs": [
+    {
+      "model": "baseline",
+      "seed": 42,
+      "signature": "5801ec3f5890ec8b1859a6b5fdb036fa12735fbbc3c20d6d7adf1e7c9608186d",
+      "checkpoint_sha256": "2a0829938457656a434e4b43df75c7e9b2fd5eab86f374f0badc755859606839",
+      "training_execution": {
+        "strategy": "single_process",
+        "world_size": 1,
+        "per_device_microbatch": 128,
+        "global_microbatch": 128,
+        "accumulation_steps": 1,
+        "effective_batch_size": 128,
+        "source_hash": "5c284bdea9b164be9eb13cfb897f1f8e56cb8ca19bb3d0342ca80362a9d42144"
+      }
+    },
+    {
+      "model": "baseline",
+      "seed": 123,
+      "signature": "35c20400eb2afe917a5327529b5a9e60fe71b2afbbb1a2d8bee628e6bc8b40b9",
+      "checkpoint_sha256": "f03536b78e737f22f12df93eee7c58842ffce93f44a7b1cf179fc686102f7681",
+      "training_execution": {
+        "strategy": "single_process",
+        "world_size": 1,
+        "per_device_microbatch": 128,
+        "global_microbatch": 128,
+        "accumulation_steps": 1,
+        "effective_batch_size": 128,
+        "source_hash": "5c284bdea9b164be9eb13cfb897f1f8e56cb8ca19bb3d0342ca80362a9d42144"
+      }
+    },
+    {
+      "model": "roberta_mean",
+      "seed": 42,
+      "signature": "3bd61c4eb4ce670b8572f9196178ff2b021389808b222787cadad29d52c57a61",
+      "checkpoint_sha256": "183c200be0d2f930fc409489211ec4fef2efa64f828c0f29d87ca8714748e619",
+      "training_execution": {
+        "strategy": "single_process",
+        "world_size": 1,
+        "per_device_microbatch": 16,
+        "global_microbatch": 16,
+        "accumulation_steps": 2,
+        "effective_batch_size": 32,
+        "source_hash": "5c284bdea9b164be9eb13cfb897f1f8e56cb8ca19bb3d0342ca80362a9d42144"
+      }
+    },
+    {
+      "model": "roberta_mean",
+      "seed": 123,
+      "signature": "998579d8448368da15503dfafc7b2f36ac4b39c17829a32cb3505d6f470e218b",
+      "checkpoint_sha256": "dce978959bd402ec8223ee55042520f0c098afa86920fb6767b586120c81ee50",
+      "training_execution": {
+        "strategy": "DistributedDataParallel",
+        "world_size": 2,
+        "per_device_microbatch": 8,
+        "global_microbatch": 16,
+        "accumulation_steps": 2,
+        "effective_batch_size": 32,
+        "source_hash": "67e589cea6d381f0ff3b7d2adc13e46065488925b2e22992f2300371ecf757e2"
+      }
+    },
+    {
+      "model": "roberta_first",
+      "seed": 42,
+      "signature": "774a91ad218a0b3fc03de807f9060764d376a23f7c7bbf76436e4700e139fc1c",
+      "checkpoint_sha256": "99cfd7d2e0eb64d72935f0684b8cc79d62a4a3846a513a781e1609e8498d9617",
+      "training_execution": {
+        "strategy": "DistributedDataParallel",
+        "world_size": 2,
+        "per_device_microbatch": 8,
+        "global_microbatch": 16,
+        "accumulation_steps": 2,
+        "effective_batch_size": 32,
+        "source_hash": "67e589cea6d381f0ff3b7d2adc13e46065488925b2e22992f2300371ecf757e2"
+      }
+    },
+    {
+      "model": "roberta_first",
+      "seed": 123,
+      "signature": "8b4601453651afac25da514079951900ad7a43959feb72c31dd969b0f7a61d43",
+      "checkpoint_sha256": "d1ed3b272496da16a46e18370b5ff75b8675a51780f2efc4e92f40716e1dc020",
+      "training_execution": {
+        "strategy": "DistributedDataParallel",
+        "world_size": 2,
+        "per_device_microbatch": 8,
+        "global_microbatch": 16,
+        "accumulation_steps": 2,
+        "effective_batch_size": 32,
+        "source_hash": "67e589cea6d381f0ff3b7d2adc13e46065488925b2e22992f2300371ecf757e2"
+      }
+    }
+  ],
+  "qualitative_seed": 42,
+  "test_models": [
+    "baseline",
+    "roberta_mean"
+  ],
+  "ablation_selection": "validation only; first-token model not tested",
+  "decision": "All settings fixed before test access; do not tune after seeing test results"
+}

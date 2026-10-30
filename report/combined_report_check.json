@@ -1,0 +1,31 @@
+{
+  "combined_report": "report/Combined_Technical_Report.pdf",
+  "total_pages": 30,
+  "section_pages": {
+    "Question 1": 5,
+    "Question 2": 6,
+    "Question 3": 11,
+    "Question 4": 6
+  },
+  "section_spans": {
+    "Question 1": [
+      2,
+      6
+    ],
+    "Question 2": [
+      7,
+      12
+    ],
+    "Question 3": [
+      13,
+      23
+    ],
+    "Question 4": [
+      24,
+      29
+    ]
+  },
+  "q2_page_limit_passed": true,
+  "human_rating_rows_filled": 0,
+  "sha256": "02b4fed6b660746ffe8fe95937928f180552d0acadd99c8495b7eae98e36a2c2"
+}

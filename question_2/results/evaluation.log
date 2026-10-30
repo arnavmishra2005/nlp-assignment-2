@@ -1,0 +1,12 @@
+2026-10-30 06:03:12,337 | INFO | FINAL TEST ACCESS: all six training runs verified and frozen
+2026-10-30 06:03:12,337 | INFO | Loading test split; pinned revisions; recovering titles by exact review ID
+2026-10-30 06:03:16,145 | INFO | test: 5000 records; class counts={0: 1000, 1: 1000, 2: 1000, 3: 1000, 4: 1000}; titles=4999
+2026-10-30 06:03:19,352 | INFO | baseline_seed42 | accuracy=0.6434 macro F1=0.6400 MAE=0.4224
+2026-10-30 06:03:20,061 | INFO | baseline_seed123 | accuracy=0.6324 macro F1=0.6302 MAE=0.4330
+2026-10-30 06:05:00,759 | INFO | roberta_mean_seed42 | accuracy=0.6710 macro F1=0.6699 MAE=0.3672
+2026-10-30 06:06:11,488 | INFO | roberta_mean_seed123 | accuracy=0.6716 macro F1=0.6712 MAE=0.3672
+2026-10-30 06:06:11,944 | INFO | All final predictions saved; future analysis uses these cached predictions
+2026-10-30 06:06:15,029 | INFO | Qualitative selection: {'baseline_wrong_roberta_right': {'available': 500, 'requested': 5, 'selected': 5}, 'baseline_right_roberta_wrong': {'available': 362, 'requested': 2, 'selected': 2}}
+2026-10-30 06:06:19,342 | INFO | Token importance saved for en_0002917
+2026-10-30 06:06:19,390 | INFO | Analysis saved: tables, training curves, confusion matrices, ordinal errors, qualitative examples and report draft
+2026-10-30 06:06:19,407 | INFO | FINAL EVALUATION AND ANALYSIS COMPLETE

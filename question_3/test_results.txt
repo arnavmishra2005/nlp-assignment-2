@@ -1,0 +1,19 @@
+test_attention_masks_have_zero_mass (test_solution.TransformerTests.test_attention_masks_have_zero_mass) ... ok
+test_causal_mask_prevents_future_leakage (test_solution.TransformerTests.test_causal_mask_prevents_future_leakage) ... ok
+test_data_fingerprint_detects_changed_text_and_order (test_solution.TransformerTests.test_data_fingerprint_detects_changed_text_and_order) ... ok
+test_data_fingerprint_rejects_duplicate_ids (test_solution.TransformerTests.test_data_fingerprint_rejects_duplicate_ids) ... ok
+test_generation_encodes_once_and_stops_at_eos (test_solution.TransformerTests.test_generation_encodes_once_and_stops_at_eos) ... ok
+test_incremental_generation_matches_full_prefix (test_solution.TransformerTests.test_incremental_generation_matches_full_prefix) ... ok
+test_loss_ignores_padding (test_solution.TransformerTests.test_loss_ignores_padding) ... ok
+test_optimizer_can_reduce_loss (test_solution.TransformerTests.test_optimizer_can_reduce_loss) ... ok
+test_positional_encoding (test_solution.TransformerTests.test_positional_encoding) ... ok
+test_rouge_perfect_reference (test_solution.TransformerTests.test_rouge_perfect_reference) ... ok
+test_sentence_newlines (test_solution.TransformerTests.test_sentence_newlines) ... ok
+test_shift_and_padding (test_solution.TransformerTests.test_shift_and_padding) ... ok
+test_source_padding_is_ignored (test_solution.TransformerTests.test_source_padding_is_ignored) ... ok
+test_target_padding_is_masked (test_solution.TransformerTests.test_target_padding_is_masked) ... ok
+
+----------------------------------------------------------------------
+Ran 14 tests in 2.856s
+
+OK

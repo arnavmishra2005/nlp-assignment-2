@@ -1,0 +1,19 @@
+{
+  "status": "complete",
+  "signature": "35c20400eb2afe917a5327529b5a9e60fe71b2afbbb1a2d8bee628e6bc8b40b9",
+  "model": "baseline",
+  "seed": 123,
+  "best_epoch": 4,
+  "best_validation_macro_f1": 0.6302548081305047,
+  "epochs_completed": 6,
+  "elapsed_seconds": 683.2031627840001,
+  "best_sha256": "f03536b78e737f22f12df93eee7c58842ffce93f44a7b1cf179fc686102f7681",
+  "parameters": 3768497,
+  "peak_gpu_memory_gib": 0.3172879219055176,
+  "evidence_sha256": {
+    "run.json": "557b3412c6b439647ac381a42b70a16a289d8f08cad80543670d26eb736a09b5",
+    "history.json": "4057d76cd5324bb7d8cdc897ee409bec99a54e9a165b3759314d3d71b4d55e38",
+    "best.pt": "f03536b78e737f22f12df93eee7c58842ffce93f44a7b1cf179fc686102f7681",
+    "environment-freeze.txt": "1ca9525d8db137b0a488028ded8f5cfc812b59bb7aeb79c5e294cf96efc87416"
+  }
+}

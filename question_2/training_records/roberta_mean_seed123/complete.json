@@ -1,0 +1,34 @@
+{
+  "status": "complete",
+  "signature": "998579d8448368da15503dfafc7b2f36ac4b39c17829a32cb3505d6f470e218b",
+  "model": "roberta_mean",
+  "seed": 123,
+  "best_epoch": 2,
+  "best_validation_macro_f1": 0.6650966606815336,
+  "epochs_completed": 3,
+  "elapsed_seconds": 12776.734846394,
+  "best_sha256": "dce978959bd402ec8223ee55042520f0c098afa86920fb6767b586120c81ee50",
+  "parameters": 124058885,
+  "peak_gpu_memory_gib": 4.142244338989258,
+  "per_rank_peak_gpu_memory_gib": [
+    4.133342266082764,
+    4.142244338989258
+  ],
+  "distributed": {
+    "strategy": "DistributedDataParallel",
+    "world_size": 2,
+    "per_gpu_microbatch": 8,
+    "global_microbatch": 16,
+    "accumulation_steps": 2,
+    "effective_batch_size": 32,
+    "sampler": "original global seed/epoch permutation, disjoint contiguous rank slices",
+    "gradient_reduction": "world_size * local summed loss / actual global accumulation-group samples"
+  },
+  "evidence_sha256": {
+    "run.json": "30925d61addbd511785d40acee2e6d6e94e5a9f5ba61d2364321624ed2729a83",
+    "history.json": "68062b54e06cd493e2e04809a5e35183c09dc1f6eb117d5dbb6dd4b7106aa358",
+    "best.pt": "dce978959bd402ec8223ee55042520f0c098afa86920fb6767b586120c81ee50",
+    "environment-freeze.txt": "1ca9525d8db137b0a488028ded8f5cfc812b59bb7aeb79c5e294cf96efc87416",
+    "distributed_execution.json": "45b4af1ddc95d9608eee9421fe05ec2f08f3a98c5ccfcc776f611281c520d0f5"
+  }
+}

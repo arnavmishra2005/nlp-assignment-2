@@ -1,0 +1,106 @@
+{
+  "signature": "35c20400eb2afe917a5327529b5a9e60fe71b2afbbb1a2d8bee628e6bc8b40b9",
+  "config": {
+    "dataset": {
+      "repo": "SetFit/amazon_reviews_multi_en",
+      "revision": "ec73b665e4be0f567b69d39425355401cfe0d29b",
+      "title_repo": "buruzaemon/amazon_reviews_multi",
+      "title_revision": "486fbd96a972291f6d7b4cad9d88088c5983244c",
+      "expected_sizes": {
+        "train": 200000,
+        "validation": 5000,
+        "test": 5000
+      }
+    },
+    "seeds": [
+      42,
+      123
+    ],
+    "baseline": {
+      "max_length": 200,
+      "min_frequency": 2,
+      "max_vocab": 60000,
+      "embedding_dim": 100,
+      "hidden_dim": 128,
+      "attention_dim": 128,
+      "num_layers": 2,
+      "dropout": 0.3,
+      "batch_size": 128,
+      "eval_batch_size": 256,
+      "learning_rate": 0.001,
+      "epochs": 8,
+      "patience": 2,
+      "accumulation_steps": 1,
+      "precision": "fp32"
+    },
+    "roberta": {
+      "model_name": "FacebookAI/roberta-base",
+      "revision": "e2da8e2f811d1448a5b465c236feacd80ffbac7b",
+      "max_length": 256,
+      "dropout": 0.2,
+      "batch_size": 16,
+      "eval_batch_size": 32,
+      "learning_rate": 2e-05,
+      "weight_decay": 0.01,
+      "warmup_ratio": 0.08,
+      "epochs": 3,
+      "patience": 1,
+      "accumulation_steps": 2,
+      "precision": "auto"
+    },
+    "training": {
+      "num_workers": 2,
+      "gradient_clip": 1.0,
+      "log_every_batches": 100,
+      "checkpoint_every_optimizer_steps": 500,
+      "min_delta": 0.0001
+    },
+    "qualitative_seed": 42
+  },
+  "seed": 123,
+  "model": "baseline",
+  "metadata": {
+    "vocab_size": 32611
+  },
+  "parameters": 3768497,
+  "environment": {
+    "utc": "2026-10-29T02:35:10.489366+00:00",
+    "python": "3.13.15 (main, Aug  6 2026, 11:06:22) [GCC 13.3.0]",
+    "platform": "Linux-6.18.55+-x86_64-with-glibc2.39",
+    "packages": {
+      "torch": "2.11.0+cu128",
+      "transformers": "4.51.3",
+      "datasets": "3.6.0",
+      "numpy": "2.1.3",
+      "pandas": "2.3.3",
+      "scikit-learn": "1.6.1"
+    },
+    "gpu": "Tesla T4",
+    "gpu_count": 2,
+    "cuda": "12.8",
+    "source_hash": "5c284bdea9b164be9eb13cfb897f1f8e56cb8ca19bb3d0342ca80362a9d42144"
+  },
+  "prepared_manifest": "e5123464bfce7af69f7f42ba50fb569dbcc119de710eee1e184d701ee8ab26fd",
+  "precision": "torch.float32",
+  "planned_optimizer_updates": 12504,
+  "source_hash": "5c284bdea9b164be9eb13cfb897f1f8e56cb8ca19bb3d0342ca80362a9d42144",
+  "sessions": [
+    {
+      "utc": "2026-10-29T02:35:10.489366+00:00",
+      "python": "3.13.15 (main, Aug  6 2026, 11:06:22) [GCC 13.3.0]",
+      "platform": "Linux-6.18.55+-x86_64-with-glibc2.39",
+      "packages": {
+        "torch": "2.11.0+cu128",
+        "transformers": "4.51.3",
+        "datasets": "3.6.0",
+        "numpy": "2.1.3",
+        "pandas": "2.3.3",
+        "scikit-learn": "1.6.1"
+      },
+      "gpu": "Tesla T4",
+      "gpu_count": 2,
+      "cuda": "12.8",
+      "source_hash": "5c284bdea9b164be9eb13cfb897f1f8e56cb8ca19bb3d0342ca80362a9d42144"
+    }
+  ]
+}

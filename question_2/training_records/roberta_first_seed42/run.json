@@ -1,0 +1,228 @@
+{
+  "signature": "774a91ad218a0b3fc03de807f9060764d376a23f7c7bbf76436e4700e139fc1c",
+  "config": {
+    "dataset": {
+      "repo": "SetFit/amazon_reviews_multi_en",
+      "revision": "ec73b665e4be0f567b69d39425355401cfe0d29b",
+      "title_repo": "buruzaemon/amazon_reviews_multi",
+      "title_revision": "486fbd96a972291f6d7b4cad9d88088c5983244c",
+      "expected_sizes": {
+        "train": 200000,
+        "validation": 5000,
+        "test": 5000
+      }
+    },
+    "seeds": [
+      42,
+      123
+    ],
+    "baseline": {
+      "max_length": 200,
+      "min_frequency": 2,
+      "max_vocab": 60000,
+      "embedding_dim": 100,
+      "hidden_dim": 128,
+      "attention_dim": 128,
+      "num_layers": 2,
+      "dropout": 0.3,
+      "batch_size": 128,
+      "eval_batch_size": 256,
+      "learning_rate": 0.001,
+      "epochs": 8,
+      "patience": 2,
+      "accumulation_steps": 1,
+      "precision": "fp32"
+    },
+    "roberta": {
+      "model_name": "FacebookAI/roberta-base",
+      "revision": "e2da8e2f811d1448a5b465c236feacd80ffbac7b",
+      "max_length": 256,
+      "dropout": 0.2,
+      "batch_size": 16,
+      "eval_batch_size": 32,
+      "learning_rate": 2e-05,
+      "weight_decay": 0.01,
+      "warmup_ratio": 0.08,
+      "epochs": 3,
+      "patience": 1,
+      "accumulation_steps": 2,
+      "precision": "auto"
+    },
+    "training": {
+      "num_workers": 2,
+      "gradient_clip": 1.0,
+      "log_every_batches": 100,
+      "checkpoint_every_optimizer_steps": 500,
+      "min_delta": 0.0001
+    },
+    "qualitative_seed": 42
+  },
+  "seed": 42,
+  "model": "roberta_first",
+  "metadata": {
+    "encoder_config": {
+      "return_dict": true,
+      "output_hidden_states": false,
+      "output_attentions": false,
+      "torchscript": false,
+      "torch_dtype": "float32",
+      "use_bfloat16": false,
+      "tf_legacy_loss": false,
+      "pruned_heads": {},
+      "tie_word_embeddings": true,
+      "chunk_size_feed_forward": 0,
+      "is_encoder_decoder": false,
+      "is_decoder": false,
+      "cross_attention_hidden_size": null,
+      "add_cross_attention": false,
+      "tie_encoder_decoder": false,
+      "max_length": 20,
+      "min_length": 0,
+      "do_sample": false,
+      "early_stopping": false,
+      "num_beams": 1,
+      "num_beam_groups": 1,
+      "diversity_penalty": 0.0,
+      "temperature": 1.0,
+      "top_k": 50,
+      "top_p": 1.0,
+      "typical_p": 1.0,
+      "repetition_penalty": 1.0,
+      "length_penalty": 1.0,
+      "no_repeat_ngram_size": 0,
+      "encoder_no_repeat_ngram_size": 0,
+      "bad_words_ids": null,
+      "num_return_sequences": 1,
+      "output_scores": false,
+      "return_dict_in_generate": false,
+      "forced_bos_token_id": null,
+      "forced_eos_token_id": null,
+      "remove_invalid_values": false,
+      "exponential_decay_length_penalty": null,
+      "suppress_tokens": null,
+      "begin_suppress_tokens": null,
+      "architectures": [
+        "RobertaForMaskedLM"
+      ],
+      "finetuning_task": null,
+      "id2label": {
+        "0": "LABEL_0",
+        "1": "LABEL_1"
+      },
+      "label2id": {
+        "LABEL_0": 0,
+        "LABEL_1": 1
+      },
+      "tokenizer_class": null,
+      "prefix": null,
+      "bos_token_id": 0,
+      "pad_token_id": 1,
+      "eos_token_id": 2,
+      "sep_token_id": null,
+      "decoder_start_token_id": null,
+      "task_specific_params": null,
+      "problem_type": null,
+      "_name_or_path": "/kaggle/input/datasets/ashgreninja123/q2-prepare-results/Q2_prepare/prepared/pretrained",
+      "_attn_implementation_autoset": true,
+      "transformers_version": "4.51.3",
+      "model_type": "roberta",
+      "vocab_size": 50265,
+      "hidden_size": 768,
+      "num_hidden_layers": 12,
+      "num_attention_heads": 12,
+      "hidden_act": "gelu",
+      "intermediate_size": 3072,
+      "hidden_dropout_prob": 0.1,
+      "attention_probs_dropout_prob": 0.1,
+      "max_position_embeddings": 514,
+      "type_vocab_size": 1,
+      "initializer_range": 0.02,
+      "layer_norm_eps": 1e-05,
+      "position_embedding_type": "absolute",
+      "use_cache": true,
+      "classifier_dropout": null
+    }
+  },
+  "parameters": 124058885,
+  "prepared_manifest": "e5123464bfce7af69f7f42ba50fb569dbcc119de710eee1e184d701ee8ab26fd",
+  "precision": "torch.bfloat16",
+  "planned_optimizer_updates": 18750,
+  "source_hash": "67e589cea6d381f0ff3b7d2adc13e46065488925b2e22992f2300371ecf757e2",
+  "distributed": {
+    "strategy": "DistributedDataParallel",
+    "world_size": 2,
+    "per_gpu_microbatch": 8,
+    "global_microbatch": 16,
+    "accumulation_steps": 2,
+    "effective_batch_size": 32,
+    "sampler": "original global seed/epoch permutation, disjoint contiguous rank slices",
+    "gradient_reduction": "world_size * local summed loss / actual global accumulation-group samples",
+    "backend": "nccl",
+    "devices": [
+      {
+        "rank": 0,
+        "device": "cuda:0",
+        "pid": 121,
+        "name": "Tesla T4",
+        "all_reduce_checksum": 3.0
+      },
+      {
+        "rank": 1,
+        "device": "cuda:1",
+        "pid": 122,
+        "name": "Tesla T4",
+        "all_reduce_checksum": 3.0
+      }
+    ],
+    "gradient_probe": {
+      "status": "PASS",
+      "maximum_gradient_error": 2.9802322387695312e-08,
+      "samples": 22,
+      "global_microbatch": 6,
+      "accumulation_steps": 2,
+      "partial_final_group_tested": true,
+      "real_training_data_used": false
+    },
+    "dropout_seeds": [
+      42,
+      43
+    ],
+    "validation": "rank0, all official validation rows, original evaluation batch size"
+  },
+  "environment": {
+    "utc": "2026-10-29T14:45:42.465813+00:00",
+    "python": "3.13.15 (main, Aug  6 2026, 11:06:22) [GCC 13.3.0]",
+    "platform": "Linux-6.18.55+-x86_64-with-glibc2.39",
+    "packages": {
+      "torch": "2.11.0+cu128",
+      "transformers": "4.51.3",
+      "datasets": "3.6.0",
+      "numpy": "2.1.3",
+      "pandas": "2.3.3",
+      "scikit-learn": "1.6.1"
+    },
+    "gpu": "Tesla T4",
+    "gpu_count": 2,
+    "cuda": "12.8",
+    "source_hash": "67e589cea6d381f0ff3b7d2adc13e46065488925b2e22992f2300371ecf757e2"
+  },
+  "sessions": [
+    {
+      "utc": "2026-10-29T14:45:42.465813+00:00",
+      "python": "3.13.15 (main, Aug  6 2026, 11:06:22) [GCC 13.3.0]",
+      "platform": "Linux-6.18.55+-x86_64-with-glibc2.39",
+      "packages": {
+        "torch": "2.11.0+cu128",
+        "transformers": "4.51.3",
+        "datasets": "3.6.0",
+        "numpy": "2.1.3",
+        "pandas": "2.3.3",
+        "scikit-learn": "1.6.1"
+      },
+      "gpu": "Tesla T4",
+      "gpu_count": 2,
+      "cuda": "12.8",
+      "source_hash": "67e589cea6d381f0ff3b7d2adc13e46065488925b2e22992f2300371ecf757e2"
+    }
+  ]
+}

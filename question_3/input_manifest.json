@@ -1,0 +1,20 @@
+{
+  "repository": "abisee/cnn_dailymail",
+  "version": "3.0.0",
+  "revision": "96df5e686bee6baa90b8bee7c28b81fa3fa6223d",
+  "splits": {
+    "train": {
+      "count": 2048,
+      "semantic_sha256": "4dd56b45c73f98051a7d6b8e582340a8926aaec42375c5129455f65bb7650b7e"
+    },
+    "validation": {
+      "count": 1024,
+      "semantic_sha256": "b9c8c2711832f2c6b9aabecd6b9a09c20b704bfe936fb4c0ab252d818eb5e800"
+    },
+    "test": {
+      "count": 11490,
+      "semantic_sha256": "19113d82bb24620a78656df22f649fcbe0e7c93cce3764508d386ba9b565e4de"
+    }
+  },
+  "tokenizer_semantic_sha256": "2631bb3f621cdfd5be8eb56200951bb87e540852d2ad63eb51cd01ec19dfd413"
+}

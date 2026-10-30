@@ -1,0 +1,12 @@
+{
+  "checked_at": "2026-10-30T01:10:55.456075",
+  "command": "python download_data.py --work ../work --verify-source",
+  "repository": "abisee/cnn_dailymail",
+  "version": "3.0.0",
+  "revision": "96df5e686bee6baa90b8bee7c28b81fa3fa6223d",
+  "train_remote_matches_local": true,
+  "validation_remote_matches_local": true,
+  "test_remote_matches_local": true,
+  "tokenizer_rebuilt_from_training_only": true,
+  "test_scoring_used": false
+}

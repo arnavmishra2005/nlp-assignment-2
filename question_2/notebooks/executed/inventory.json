@@ -1,0 +1,114 @@
+{
+  "notebooks": [
+    {
+      "original_download": "notebook0089e83cd3.ipynb",
+      "arranged_path": "question_2/notebooks/executed/08_final_evaluation_and_report_executed.ipynb",
+      "phase": "evaluate",
+      "classification": "COMPLETED_EVIDENCE",
+      "sha256": "981f1bc1fbb62faa9513e005cb3229d723989605fc4c8864335a2455a63226f0",
+      "code_cells": 3,
+      "executed_code_cells": 3,
+      "error_outputs": 0,
+      "content_preserved": true,
+      "archive_provenance_matched": true
+    },
+    {
+      "original_download": "notebook57e5b6eb61.ipynb",
+      "arranged_path": "question_2/notebooks/executed/03_baseline_seed123_executed.ipynb",
+      "phase": "baseline_seed123",
+      "classification": "COMPLETED_EVIDENCE",
+      "sha256": "256ae470b3a897016cb8ebee78aad07cc80e2efc07963f279169347f577ae017",
+      "code_cells": 3,
+      "executed_code_cells": 3,
+      "error_outputs": 0,
+      "content_preserved": true,
+      "archive_provenance_matched": true
+    },
+    {
+      "original_download": "notebook5989183ab7.ipynb",
+      "arranged_path": "question_2/notebooks/executed/02_baseline_seed42_executed.ipynb",
+      "phase": "baseline_seed42",
+      "classification": "COMPLETED_EVIDENCE",
+      "sha256": "52c7795c07471c5ee310cc6e3b3b136c158207b3fad499bff1fb1a64fa37c680",
+      "code_cells": 3,
+      "executed_code_cells": 3,
+      "error_outputs": 0,
+      "content_preserved": true,
+      "archive_provenance_matched": true
+    },
+    {
+      "original_download": "notebook6ff9b16c6f.ipynb",
+      "arranged_path": "question_2/notebooks/executed/04_roberta_mean_seed42_executed.ipynb",
+      "phase": "roberta_mean_seed42",
+      "classification": "COMPLETED_EVIDENCE",
+      "sha256": "46f1c3f7566f0b3e105bac5863190dc0238e0af5685caf448c08376abe99087c",
+      "code_cells": 3,
+      "executed_code_cells": 3,
+      "error_outputs": 0,
+      "content_preserved": true,
+      "archive_provenance_matched": true
+    },
+    {
+      "original_download": "notebook8312b6adc6.ipynb",
+      "arranged_path": "question_2/notebooks/executed/06_roberta_first_seed42_executed.ipynb",
+      "phase": "roberta_first_seed42",
+      "classification": "COMPLETED_EVIDENCE",
+      "sha256": "b86a56850cb1d43d42bf49b9bf5900dce3ce51656f1a3f36e663dc7ba5539cde",
+      "code_cells": 3,
+      "executed_code_cells": 3,
+      "error_outputs": 0,
+      "content_preserved": true,
+      "archive_provenance_matched": true
+    },
+    {
+      "original_download": "notebook86b1239f8b.ipynb",
+      "arranged_path": "question_2/notebooks/executed/07_roberta_first_seed123_executed.ipynb",
+      "phase": "roberta_first_seed123",
+      "classification": "COMPLETED_EVIDENCE",
+      "sha256": "c40e80c1871cf4d35810c691ed6690c59254ce8a12e605b6136f4e0b4725d2da",
+      "code_cells": 3,
+      "executed_code_cells": 3,
+      "error_outputs": 0,
+      "content_preserved": true,
+      "archive_provenance_matched": true
+    },
+    {
+      "original_download": "notebook8977b4eca1.ipynb",
+      "arranged_path": "question_2/notebooks/executed/01_prepare_data_CPU_executed.ipynb",
+      "phase": "prepare",
+      "classification": "COMPLETED_EVIDENCE",
+      "sha256": "85e1014b77c394c857e290985d5724d70b215df765a5bf09b96ac92d1d598add",
+      "code_cells": 3,
+      "executed_code_cells": 3,
+      "error_outputs": 0,
+      "content_preserved": true,
+      "archive_provenance_matched": true
+    },
+    {
+      "original_download": "notebookb7628ac660.ipynb",
+      "arranged_path": "question_2/notebooks/executed/01b_smoke_GPU_executed.ipynb",
+      "phase": "smoke",
+      "classification": "COMPLETED_EVIDENCE",
+      "sha256": "b781b349f897c693078185bb669f43c0ab5ef04759ccec81ccb8371fc4052ebd",
+      "code_cells": 3,
+      "executed_code_cells": 3,
+      "error_outputs": 0,
+      "content_preserved": true,
+      "archive_provenance_matched": true
+    },
+    {
+      "original_download": "notebooke544421993.ipynb",
+      "arranged_path": "question_2/notebooks/executed/05_roberta_mean_seed123_executed.ipynb",
+      "phase": "roberta_mean_seed123",
+      "classification": "COMPLETED_EVIDENCE",
+      "sha256": "e8532c92c6d8055191a908c3261ade7c2025cc1b71311e418b8e3026b074977c",
+      "code_cells": 3,
+      "executed_code_cells": 3,
+      "error_outputs": 0,
+      "content_preserved": true,
+      "archive_provenance_matched": true
+    }
+  ],
+  "provenance_check": "Each final phase inspection receipt matched the retained archive config/source/split/prepared-manifest fingerprints; every notebook was moved byte-for-byte.",
+  "finalization": "Executed locally on CPU; its Kaggle template remains unexecuted by design."
+}

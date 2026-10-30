@@ -1,0 +1,29 @@
+{
+  "config": {
+    "vocab_size": 4096,
+    "width": 64,
+    "heads": 4,
+    "layers": 2,
+    "hidden": 256,
+    "dropout": 0.1,
+    "pad_id": 0
+  },
+  "parameters": 761856,
+  "train_pairs": 2048,
+  "validation_pairs": 1024,
+  "source_limit": 400,
+  "summary_limit": 128,
+  "generation_limit": 128,
+  "seed": 42,
+  "batch_size": 16,
+  "warmup_steps": 200,
+  "lr_scale": 0.1,
+  "patience": 2,
+  "best_epoch": 12,
+  "best_validation_loss": 6.182745431360581,
+  "training_seconds": 939.2251944000018,
+  "device": "cpu",
+  "threads": 4,
+  "torch_version": "2.14.1+cpu",
+  "tokenizer": "SentencePiece BPE, lowercased training split only"
+}

@@ -1,0 +1,9 @@
+# Regenerated data and local Python state only
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+data/*
+!data/README.md
+*.zip
+# checkpoints/rnn.pt and checkpoints/lstm.pt are required and intentionally tracked.

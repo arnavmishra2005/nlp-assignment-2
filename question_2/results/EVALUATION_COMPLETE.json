@@ -1,0 +1,21 @@
+{
+  "protocol_hash": "0d1904a9941bdb7b65a1d8eeeeccc627bfdf4c5c2ff8dbbfb8c60c44f5384d73",
+  "environment": {
+    "utc": "2026-10-30T06:06:19.405520+00:00",
+    "python": "3.13.15 (main, Aug  6 2026, 11:06:22) [GCC 13.3.0]",
+    "platform": "Linux-6.18.55+-x86_64-with-glibc2.39",
+    "packages": {
+      "torch": "2.11.0+cu128",
+      "transformers": "4.51.3",
+      "datasets": "3.6.0",
+      "numpy": "2.1.3",
+      "pandas": "2.3.3",
+      "scikit-learn": "1.6.1"
+    },
+    "gpu": "Tesla T4",
+    "gpu_count": 2,
+    "cuda": "12.8",
+    "source_hash": "67e589cea6d381f0ff3b7d2adc13e46065488925b2e22992f2300371ecf757e2"
+  },
+  "note": "Review qualitative annotations and complete the report; do not tune using test results"
+}

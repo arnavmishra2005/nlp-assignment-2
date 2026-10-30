@@ -1,0 +1,34 @@
+[
+  {
+    "model": "rnn",
+    "test_loss": 2.826057994124992,
+    "test_perplexity": 16.878793206817598,
+    "distinct_1": 0.1889382317319338,
+    "distinct_2": 0.4799344799344799,
+    "mean_repetition_rate_3gram": 0.1033078959405518,
+    "average_generated_words_including_prompt": 70.77142857142857,
+    "sample_count": 35,
+    "premature_end_count_under_20_words": 0,
+    "overlong_count_at_least_180_words": 0,
+    "repetition_definition": "1 - unique 3-gram count / total 3-gram count, averaged per output",
+    "best_validation_perplexity": 17.06744144004173,
+    "parameters": 5542695,
+    "train_seconds": 343.7393732070923
+  },
+  {
+    "model": "lstm",
+    "test_loss": 2.595515575010645,
+    "test_perplexity": 13.403496087909643,
+    "distinct_1": 0.2052860246198407,
+    "distinct_2": 0.5441877521085442,
+    "mean_repetition_rate_3gram": 0.0836570417056275,
+    "average_generated_words_including_prompt": 78.91428571428571,
+    "sample_count": 35,
+    "premature_end_count_under_20_words": 0,
+    "overlong_count_at_least_180_words": 0,
+    "repetition_definition": "1 - unique 3-gram count / total 3-gram count, averaged per output",
+    "best_validation_perplexity": 13.58883745334101,
+    "parameters": 6725415,
+    "train_seconds": 473.1429708003998
+  }
+]

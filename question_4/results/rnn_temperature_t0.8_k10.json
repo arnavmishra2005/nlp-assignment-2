@@ -1,0 +1,65 @@
+[
+  {
+    "model": "rnn",
+    "strategy": "temperature",
+    "temperature": 0.8,
+    "top_k": 10,
+    "seed": 42,
+    "prompt": "One night, a student found an exam paper with tomorrow's answers.",
+    "output": "One night, a student found an exam paper with tomorrow's answers. he was very curious and wanted to know what was going . he got a bit of , but he tried to hide under the rock . he turned around and saw a little bird . it was a big hole in the distance . john was so excited and ran back to the store . but when he looked down , he saw a big tree . he was going to get to the top of the tree ."
+  },
+  {
+    "model": "rnn",
+    "strategy": "temperature",
+    "temperature": 0.8,
+    "top_k": 10,
+    "seed": 42,
+    "prompt": "Mia opened the old box and discovered something nobody had seen before.",
+    "output": "Mia opened the old box and discovered something nobody had seen before. she got there and saw a little girl crying . the monster said , \" what should we do ? \" \" i'm designing ! \" said tom . \" we do not want to have some food for you . \" lily went to her mom and said , \" thanks ! let's play together ! \" but lily had an idea . she said to her mommy , \" look , we can borrow your clothes ! \""
+  },
+  {
+    "model": "rnn",
+    "strategy": "temperature",
+    "temperature": 0.8,
+    "top_k": 10,
+    "seed": 42,
+    "prompt": "The detective solved the murder before it happened.",
+    "output": "The detective solved the murder before it happened. the sun was shining , and the flowers were happy . it was very tasty and liked to splash . it was a big truck ! the boat had many windows and was very fast . the monster was so scared and said , \" i can help you , so you are too hard and i feel scared and can't ! \" lily felt happy knowing she had learnt an important job . the girl said goodbye and soon"
+  },
+  {
+    "model": "rnn",
+    "strategy": "temperature",
+    "temperature": 0.8,
+    "top_k": 10,
+    "seed": 42,
+    "prompt": "One morning, everyone in the village forgot the previous day.",
+    "output": "One morning, everyone in the village forgot the previous day. they saw many people sitting on a big tree . they were scared and playful who had to take a break . he was so excited ! he ran to the tree to see what was inside . jack was surprised . he said , \" meow ! \" she said . ben picked up the worm and carefully climbed onto the tree . he was so happy that he ran back to his house . when he arrived ,"
+  },
+  {
+    "model": "rnn",
+    "strategy": "temperature",
+    "temperature": 0.8,
+    "top_k": 10,
+    "seed": 42,
+    "prompt": "A letter arrived from exactly one hundred years in the future.",
+    "output": "A letter arrived from exactly one hundred years in the future. he stopped and looked around . he saw the house and were sure to help . he picked up the stick and grabbed the shirt back . lily and her mom were scared and ran away . max and lily played together every day . they played together all day , and they started to be friends with their mom and dad . they would have fun , to help her dad find her way to the park ."
+  },
+  {
+    "model": "rnn",
+    "strategy": "temperature",
+    "temperature": 0.8,
+    "top_k": 10,
+    "seed": 42,
+    "prompt": "A shy robot wanted to make one human friend.",
+    "output": "A shy robot wanted to make one human friend. \" what do you do ? \" asked mom . \" now you can do a fish ! € so the two of them began together . they were the best of their baby and the family spent the rest of the day playing in the park . they became their best friends , and they had a great day at school ."
+  },
+  {
+    "model": "rnn",
+    "strategy": "temperature",
+    "temperature": 0.8,
+    "top_k": 10,
+    "seed": 42,
+    "prompt": "The little fox had to solve a problem before sunset.",
+    "output": "The little fox had to solve a problem before sunset. he wanted to keep the pebble , so he asked his dad what € ™ s one , \" said the cat . curious of the rabbit hopped away , \" i hope i don't know how to make a delicious snack ! \" so they sat down together and walked home ."
+  }
+]

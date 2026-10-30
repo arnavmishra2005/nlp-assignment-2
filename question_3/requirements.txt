@@ -1,0 +1,9 @@
+torch==2.14.1
+datasets==5.1.0
+sentencepiece==0.2.2
+numpy==2.5.4
+rouge-score==0.1.2
+matplotlib==3.11.2
+reportlab==5.1.0
+protobuf==7.36.2
+nltk==3.10.4
